@@ -133,3 +133,14 @@ p{
 div{
 	color: white;
 }
+/*contacto*/
+.contacto{
+	margin-top: 400px;
+}
+.color1{
+	background-color:grey;
+	background-size: cover;
+}
+.color{
+	color:white
+}
