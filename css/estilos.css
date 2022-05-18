@@ -56,7 +56,7 @@ body{
 	list-style-type:none;
 	justify-content: space-evenly;
 	flex-direction: row;
-	margin-left: 1 rem;
+	margin-left: 1rem;
 }
 .imagenes{
 	display: flex;
@@ -137,10 +137,19 @@ div{
 .contacto{
 	margin-top: 200px;
 }
+.color{
+	color:white
+}
 .color1{
 	background-color:grey;
 	background-size: cover;
 }
-.color{
-	color:white
+.color2{
+	color:#EF6C00;
+}
+button{
+	background-color:#EF6C00;
+	color: white;
+	border-radius: 5px;
+
 }
