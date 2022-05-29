@@ -1,0 +1,17 @@
+@mixin discos{
+    display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	list-style-type: none;
+	margin-left: 1 rem;
+	color:  white;
+}
+.discos1{
+	@include discos;
+}
+.discos2{
+    @include discos;
+}
+.discos3{
+    @include discos;
+}
