@@ -1,0 +1,23 @@
+.discos1{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	list-style-type: none;
+	margin-left: 1 rem;
+	color:  white;
+}
+.discos2{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	list-style-type: none;
+	color: white;
+}
+.discos3{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin-left: 1 rem;
+	list-style-type: none;
+	color: white;
+}
