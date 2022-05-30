@@ -7,11 +7,12 @@
 	color:  white;
 }
 .discos2{
-	display: flex;
+    display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
 	list-style-type: none;
-	color: white;
+	margin-left: 1 rem;
+	color:  white;	
 }
 .discos3{
 	display: flex;
