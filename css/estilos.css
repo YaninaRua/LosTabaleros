@@ -19,7 +19,7 @@ body{
 	font-weight: 25px;
 	background-color: white;
 	display: inline;
-	margin-top: 10rem;
+	margin-top: 10px;
 }
 .subtitulo{
 	font-weight: bold;
@@ -148,7 +148,7 @@ div{
 }
 /*contacto*/
 .contacto{
-	margin-top: 200px;
+	margin-top: 30px;
 }
 .color{
 	color:white
