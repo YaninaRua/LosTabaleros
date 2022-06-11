@@ -52,6 +52,9 @@ body{
 	margin-bottom: 10rem;
 	width: 50%;
 }
+i{
+	font-size: 3rem;
+}
 .producto{
 	display: flex;
 	justify-content: space-between;
@@ -125,17 +128,21 @@ body{
 	text-align: center;
 	height: 250px;
 }
+.redes_sociales{
+	list-style-type: none;
+	display: inline-flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-left: 2rem;
+	text-decoration: none;
+	text-decoration-line: none;
+	text-decoration-color: none;
+}
 #footer{
 	color: white;
 	font-size: 25px;
 	bottom: 0px;
 	left: 80%;
-}
-.redes_sociales{
-	list-style-type: none;
-	display: inline-flex;
-	justify-content: space-evenly;
-	margin-left: 1 rem;
 }
 /*galería*/
 .grupo1{
