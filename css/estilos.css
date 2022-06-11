@@ -128,6 +128,26 @@ body{
 	justify-content: space-evenly;
 	margin-left: 1 rem;
 }
+/*galería*/
+.grupo1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	margin-bottom: 24px;
+}
+.grupo2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	margin-bottom: 24px;
+	margin-left: 35px;
+}
+.foto:hover{
+	transform: scale(1.1);
+	transition: all 250 ms;
+}
 /*discografía*/
 .discos1{
 	display: flex;
