@@ -24,14 +24,7 @@
 }
 .orange{
 	@extend .button;
-	background: orange;
+	background: #1ff9aa;
 }
-.white{
-	@extend .button;
-	background: white;
-}
-.yellow{
-	@extend .button;
-	background: yellow;
-}
+
 

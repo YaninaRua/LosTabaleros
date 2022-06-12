@@ -46,7 +46,7 @@
   color: white;
 }
 
-.button, .orange, .white, .yellow {
+.button, .orange {
   border: none;
   padding: 5px 10px;
   text-align: center;
@@ -56,14 +56,6 @@
 }
 
 .orange {
-  background: orange;
-}
-
-.white {
-  background: white;
-}
-
-.yellow {
-  background: yellow;
+  background: #1ff9aa;
 }
 /*# sourceMappingURL=estilos.css.map */
