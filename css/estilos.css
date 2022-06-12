@@ -31,14 +31,25 @@ body{
 .subtitulo{
 	font-weight: bold;
 	text-align: center;
-	color: #f91fb7;
+	color: white;
 	font-size: 40px;
 	font-weight: 25px;
-	background-color: white;
 	margin: auto;
 	margin-top: 0rem;
 	margin-bottom: 3rem;
 	width: 50%;
+	padding: auto;
+	padding-top: 2rem;
+}
+.nav-link{
+	color:white;
+    font-size: 18px;
+
+}
+.container-flex{
+	margin: auto;
+	margin-bottom: 4rem;
+	margin-top: 4rem;
 }
 .subtitulo1{
 	font-weight: bold;
@@ -252,7 +263,7 @@ button{
 	}
 	.redes_sociales{
 		list-style-type: none;
-		display: inline-flex;
+		display: inline-block;
 		justify-content: space-evenly;
 		margin-right: 1 rem;
 		position: center;
