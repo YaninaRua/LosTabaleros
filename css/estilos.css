@@ -203,8 +203,8 @@ div{
 	color:white
 }
 .color1{
-	background-color:grey;
-	background-size: cover;
+	background-image: url(../assets/collage.jpg);
+	background-size: auto;
 }
 button{
 	background-color:#1ff9aa;
