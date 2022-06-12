@@ -134,12 +134,14 @@ i{
 	justify-content: space-between;
 	margin: auto;
 	margin-left: 2rem;
+	text-align: center;
 }
 #footer{
 	color: white;
 	font-size: 25px;
 	bottom: 0px;
 	left: 80%;
+	text-align: center;
 }
 /*galería*/
 .grupo1{
