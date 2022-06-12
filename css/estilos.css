@@ -37,7 +37,7 @@ body{
 	background-color: white;
 	margin: auto;
 	margin-top: 0rem;
-	margin-bottom: 10rem;
+	margin-bottom: 7rem;
 	width: 50%;
 }
 .subtitulo1{
@@ -48,8 +48,8 @@ body{
 	font-weight: 25px;
 	background-color: white;
 	margin: auto;
-	margin-top: 2rem;
-	margin-bottom: 10rem;
+	margin-top: 0rem;
+	margin-bottom: 5rem;
 	width: 50%;
 }
 i{
@@ -167,26 +167,27 @@ i{
 /*discografía*/
 .discos1{
 	display: flex;
-	justify-content: space-evenly;
 	flex-direction: row;
-	list-style-type: none;
-	margin-left: 1 rem;
-	color:  white;
+	justify-content: center;
+	justify-content: space-around;
+	margin-bottom: 24px;
+	margin-left: 35px;
 }
 .discos2{
 	display: flex;
-	justify-content: space-evenly;
 	flex-direction: row;
-	list-style-type: none;
-	color: white;
+	justify-content: center;
+	justify-content: space-around;
+	margin-bottom: 24px;
+	margin-left: 35px;
 }
 .discos3{
 	display: flex;
-	justify-content: space-evenly;
 	flex-direction: row;
-	margin-left: 1 rem;
-	list-style-type: none;
-	color: white;
+	justify-content: center;
+	justify-content: space-around;
+	margin-bottom: 24px;
+	margin-left: 35px;
 }
 /*biografía*/
 p{
@@ -198,6 +199,11 @@ div{
 /*contacto*/
 .contacto{
 	margin-top: 30px;
+}
+.cont {
+	margin: auto;
+	margin-top: 0rem;
+	margin-bottom: 10rem;
 }
 .color{
 	color:white
