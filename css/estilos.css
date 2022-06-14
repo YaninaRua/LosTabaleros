@@ -110,6 +110,9 @@ i{
 	flex-direction: row;
 	justify-content: space-evenly;
 }
+.contain {
+	object-fit: contain;
+  }
 .redes_sociales{
 	list-style-type: none;
 	display: inline-flex;
@@ -251,20 +254,20 @@ i{
 	cursor: pointer;
 }
 /*biografía*/
-.contain {
-	object-fit: contain;
-  }
 .textobio{
+	display: flex;
+	flex-direction: inline;
+	width: 550px;
 	font-size: 18px;
 	color: white;
 	text-align: center;
 	justify-content: center;
 	margin: auto;
 	margin-top: 2rem;
-	margin-right: 22rem;
-	margin-left: 22rem;
+	margin-right: 10rem;
+	margin-left: 21rem;
 	margin-bottom: 2rem;
-	padding: auto;	
+	padding: auto;
 }
 div{
 	color: white;
@@ -311,5 +314,5 @@ button{
 		justify-content: space-evenly;
 		margin-right: 1 rem;
 		position: center;
-	}
+	}	
 }
