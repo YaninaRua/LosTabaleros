@@ -36,10 +36,9 @@ body{
 	font-weight: 25px;
 	margin: auto;
 	margin-top: 0rem;
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 	width: 50%;
 	padding: auto;
-	padding-top: 2rem;
 }
 .nav-link{
 	color:white;
@@ -111,32 +110,6 @@ i{
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-.textos{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-evenly;
-	color: white;
-}
-.texto1{
-	margin: 2%;
-	padding: 20px;
-	width: 25%;
-	font-size: 14px;
-	font-weight: normal;
-	text-align: center;
-	height: 250px;
-	left: 60px;
-}
-.texto2{
-	margin: 2%;
-	padding: 20px;
-	width: 25%;
-	font-size: 14px;
-	font-weight: normal;
-	text-align: center;
-	height: 250px;
-}
 .redes_sociales{
 	list-style-type: none;
 	display: inline-flex;
@@ -153,18 +126,69 @@ i{
 	text-align: center;
 }
 /*galería*/
+.subtitulo3{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 25px;
+	margin: auto;
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+	width: 50%;
+	padding: auto;
+}
 .grupo1{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	margin: auto;
 	margin-bottom: 24px;
+	margin-right: 3rem;
 }
 .grupo2{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 35px;
+}
+.grupo3{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 35px;
+}
+.grupo4{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 35px;
+}
+.grupo5{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 35px;
+}
+.grupo6{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin: auto;
 	margin-bottom: 24px;
 	margin-left: 35px;
 }
@@ -173,6 +197,18 @@ i{
 	transition: all 250 ms;
 }
 /*discografía*/
+.subtitulo2{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 25px;
+	margin: auto;
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+	width: 50%;
+	padding: auto;
+}
 .discos1{
 	display: flex;
 	flex-direction: row;
@@ -215,10 +251,14 @@ i{
 .textobio{
 	font-size: 18px;
 	color: white;
+	text-align: center;
 	justify-content: center;
 	margin: auto;
+	margin-top: 2rem;
 	margin-right: 2rem;
 	margin-left: 2rem;
+	padding: auto;
+	
 }
 div{
 	color: white;
