@@ -40,6 +40,15 @@ body{
 	width: 50%;
 	padding: auto;
 }
+.carousel-item active{
+
+	display: flex;
+	
+}
+.carousel-item{
+	display: flex;
+	
+}
 .nav-link{
 	color:white;
     font-size: 18px;
