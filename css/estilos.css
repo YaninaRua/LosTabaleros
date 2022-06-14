@@ -147,15 +147,6 @@ i{
 	width: 50%;
 	padding: auto;
 }
-.grupo1{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	justify-content: space-evenly;
-	margin: auto;
-	margin-bottom: 24px;
-	margin-left: 35px;
-}
 .grupo2{
 	display: flex;
 	flex-direction: row;
