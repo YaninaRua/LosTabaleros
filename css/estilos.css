@@ -104,12 +104,6 @@ i{
 	margin-top: 1rem;
 	margin-bottom: 1.5rem;
 }
-.imagenes{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-evenly;
-}
 .contain {
 	object-fit: contain;
   }
