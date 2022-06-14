@@ -255,6 +255,7 @@ i{
 	padding: .8rem 1.5rem;
 	border: 1px solid #f91fb7;
 	cursor: pointer;
+	justify-content: center;
 }
 /*biografía*/
 .textobio{
