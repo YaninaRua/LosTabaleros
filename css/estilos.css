@@ -115,15 +115,7 @@ i{
 }
 .contain {
 	object-fit: contain;
-  }
-.redes_sociales{
-	list-style-type: none;
-	display: flex;
-	justify-content: space-between;
-	margin: auto;
-	list-style-type: none;
-	position: center;
-}	
+  }	
 #footer{
 	color: white;
 	font-size: 25px;
@@ -306,4 +298,12 @@ button{
 	.contacto{
 			margin-left: 100px;	
 	}
+	.redes_sociales{
+		list-style-type: none;
+		display: flex;
+		justify-content: space-between;
+		margin: auto;
+		list-style-type: none;
+		position: center;
+	}	
 }
