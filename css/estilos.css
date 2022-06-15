@@ -118,11 +118,9 @@ i{
   }
 .redes_sociales{
 	list-style-type: none;
-	display: inline-flex;
+	display: flex;
 	justify-content: space-between;
 	margin: auto;
-	margin-left: 2rem;
-	text-align: center;
 }
 #footer{
 	color: white;
