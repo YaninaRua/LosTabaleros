@@ -263,13 +263,7 @@ i{
 	font-size: 18px;
 	color: white;
 	text-align: center;
-	justify-content: center;
 	margin: auto;
-	margin-top: 2rem;
-	margin-right: 10rem;
-	margin-left: 21rem;
-	margin-bottom: 2rem;
-	padding: auto;
 }
 div{
 	color: white;
@@ -298,7 +292,7 @@ button{
 	border: 1px solid #f91fb7;
 	cursor: pointer;
 }
-@media all and (max-width: 768px){
+@media all and (max-width:768px){
 	.header_nav{
 		display: flex;
 		list-style-type:none;
