@@ -121,7 +121,9 @@ i{
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
-}
+	list-style-type: none;
+	position: center;
+}	
 #footer{
 	color: white;
 	font-size: 25px;
@@ -304,11 +306,4 @@ button{
 	.contacto{
 			margin-left: 100px;	
 	}
-	.redes_sociales{
-		list-style-type: none;
-		display: inline-block;
-		justify-content: space-evenly;
-		margin-right: 1 rem;
-		position: center;
-	}	
 }
