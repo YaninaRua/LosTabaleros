@@ -297,6 +297,20 @@ button{
 	border: 1px solid #f91fb7;
 	cursor: pointer;
 }
+.ff{
+	margin: auto;
+	margin-bottom: 2rem;
+}
+.buttonn{
+	background-color:#f91fb7;
+	color: white;
+	border-radius: 5px;
+	padding: .8rem 1.5rem;
+	border: 1px solid #f91fb7;
+	cursor: pointer;
+	margin: auto;
+	margin-bottom: 2rem;ff
+}
 @media all and (max-width:720px){
 	.header_nav{
 		display: flex;
