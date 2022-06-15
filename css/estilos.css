@@ -114,17 +114,13 @@ i{
 }
 .contain {
 	object-fit: contain;
-  }	
+}	
 #footer{
 	color: white;
 	font-size: 25px;
 	text-align: center;
 	margin: auto;
-	margin-top: 2rem;
-	margin-left: 20rem;
-	margin-right: 20rem;
-	margin-bottom: 2rem;
-}
+}  
 /*galería*/
 .subtitulo3{
 	font-weight: bold;
@@ -285,7 +281,7 @@ button{
 	border: 1px solid #f91fb7;
 	cursor: pointer;
 }
-@media all and (max-width:768px){
+@media all and (max-width:720px){
 	.header_nav{
 		display: flex;
 		list-style-type:none;
