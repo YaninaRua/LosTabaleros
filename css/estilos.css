@@ -265,13 +265,29 @@ div{
 	margin: auto;
 	margin-top: 0rem;
 	margin-bottom: 10rem;
+	padding: auto;
+}
+.contenedor-{
+	padding: auto;
+	display: flex;
+	flex-direction: inline;
+	width: 550px;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
 }
 .color{
-	color:white
+	color:white;
+	padding: auto;
+	display: flex;
+	flex-direction: inline;
+	width: 550px;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
 }
 .color1{
-	background-image: url(../assets/fondocontacto.png);
-	background-size: cover;
+	background-color:#1ff9aa;
 }
 button{
 	background-color:#f91fb7;
