@@ -40,15 +40,14 @@ body{
 	width: 50%;
 	padding: auto;
 }
-.carousel-item active{
-
+.redes_sociales{
+	list-style-type: none;
 	display: flex;
-	
-}
-.carousel-item{
-	display: flex;
-	
-}
+	justify-content: space-between;
+	margin: auto;
+	list-style-type: none;
+	position: center;
+}	
 .nav-link{
 	color:white;
     font-size: 18px;
@@ -298,12 +297,4 @@ button{
 	.contacto{
 			margin-left: 100px;	
 	}
-	.redes_sociales{
-		list-style-type: none;
-		display: flex;
-		justify-content: space-between;
-		margin: auto;
-		list-style-type: none;
-		position: center;
-	}	
 }
