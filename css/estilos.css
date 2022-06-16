@@ -59,6 +59,8 @@ body{
 	justify-content: center;
 	list-style-type: none;
 	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
 }	
 .mx-auto{
 	display: flex;
@@ -131,7 +133,7 @@ i{
 	margin-top: 1rem;
 	margin-bottom: 1.5rem;
 }
-.contain {
+.contain{
 	object-fit: contain;
 }	
 #footer{
@@ -257,6 +259,11 @@ i{
 	margin-left: 20px;
 	margin-bottom: 10px;
 }
+.mx-auto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .button{
 	display: flex;
 	align-items: center;
@@ -268,7 +275,8 @@ i{
 	border: 1px solid #f91fb7;
 	cursor: pointer;
 	margin: auto;
-	margin-bottom: 10px;
+	margin-top: 3rem;
+	margin-bottom: 6rem;
 }
 /*biografía*/
 .fotobio{
