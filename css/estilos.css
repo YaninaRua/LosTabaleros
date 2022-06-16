@@ -16,6 +16,9 @@ body{
 	font-size: 1.5rem;
 }
 .titulo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-weight: bold;
 	text-align: center;
 	color: #f91fb7;
@@ -33,6 +36,9 @@ body{
 	margin-left: 0px;
 }
 .subtitulo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-weight: bold;
 	text-align: center;
 	color: white;
@@ -62,13 +68,15 @@ body{
 .nav-link{
 	color:white;
     font-size: 18px;
-
 }
 .container-flex{
 	margin: auto;
 	margin-bottom: 4rem;
 }
 .subtitulo1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-weight: bold;
 	text-align: center;
 	color: #ffffff;
@@ -131,12 +139,11 @@ i{
 	font-size: 25px;
 	margin: auto;
 }  
-.position{
-	text-align: center;
-	margin: auto;
-}
 /*galería*/
 .subtitulo3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-weight: bold;
 	text-align: center;
 	color: white;
@@ -206,6 +213,9 @@ i{
 }
 /*discografía*/
 .subtitulo2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-weight: bold;
 	text-align: center;
 	color: white;
@@ -263,11 +273,12 @@ i{
 /*biografía*/
 .textobio{
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-direction: inline;
 	width: 350px;
 	font-size: 18px;
 	color: white;
-	text-align: center;
 	margin: auto;
 }
 div{
