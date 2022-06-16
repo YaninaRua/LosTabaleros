@@ -216,33 +216,30 @@ i{
 }
 .discos1{
 	display: flex;
-	flex-direction: row;
+	align-items: center;
 	justify-content: center;
-	justify-content: space-evenly;
 	margin: auto;
-	margin-left: 4rem;
 	margin-right: 20px;
-	margin-bottom: 44px;
+	margin-left: 20px;
+	margin-bottom: 6px;
 }
 .discos2{
 	display: flex;
-	flex-direction: row;
+	align-items: center;
 	justify-content: center;
-	justify-content: space-evenly;
 	margin: auto;
-	margin-left: 4rem;
 	margin-right: 20px;
-	margin-bottom: 44px;
+	margin-left: 20px;
+	margin-bottom: 6px;
 }
 .discos3{
 	display: flex;
-	flex-direction: row;
+	align-items: center;
 	justify-content: center;
-	justify-content: space-evenly;
 	margin: auto;
-	margin-left: 4rem;
 	margin-right: 20px;
-	margin-bottom: 44px;
+	margin-left: 20px;
+	margin-bottom: 6px;
 }
 .button{
 	background-color:#f91fb7;
