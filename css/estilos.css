@@ -28,6 +28,10 @@ body{
 	margin-bottom: 2rem;
 	padding: 12px;
 }
+.logotaba{
+	margin: auto;
+	margin-left: 0px;
+}
 .subtitulo{
 	font-weight: bold;
 	text-align: center;
