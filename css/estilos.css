@@ -44,12 +44,15 @@ body{
 	width: 200px;
 	padding: auto;
 }
+.redes{
+	justify-content: space-between
+}
 .redes_sociales{
 	list-style-type: none;
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
+	justify-content: center;
 	margin: auto;
-	position: center;
 }	
 .mx-auto{
 	display: flex;
@@ -126,8 +129,6 @@ i{
 #footer{
 	color: white;
 	font-size: 25px;
-	text-align: center;
-	justify-content: center;
 	margin: auto;
 }  
 .position{
@@ -147,10 +148,12 @@ i{
 	width: 200px;
 	padding: auto;
 }
+.grupos{
+	justify-content: center;
+}
 .grupo1{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	justify-content: space-evenly;
 	margin: auto;
 	margin-bottom: 24px;
@@ -159,7 +162,6 @@ i{
 .grupo2{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	justify-content: space-evenly;
 	margin: auto;
 	margin-bottom: 24px;
@@ -168,7 +170,6 @@ i{
 .grupo3{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	justify-content: space-evenly;
 	margin: auto;
 	margin-bottom: 24px;
@@ -177,7 +178,6 @@ i{
 .grupo4{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	justify-content: space-evenly;
 	margin: auto;
 	margin-bottom: 24px;
@@ -195,7 +195,6 @@ i{
 .grupo6{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	justify-content: space-evenly;
 	margin: auto;
 	margin-bottom: 24px;
@@ -228,7 +227,7 @@ i{
 	margin: auto;
 	margin-right: 20px;
 	margin-left: 20px;
-	margin-bottom: 24px;
+	margin-bottom: 10px;
 }
 .discos2{
 	display: flex;
@@ -237,7 +236,7 @@ i{
 	margin: auto;
 	margin-right: 20px;
 	margin-left: 20px;
-	margin-bottom: 24px;
+	margin-bottom: 10px;
 }
 .discos3{
 	display: flex;
@@ -246,16 +245,20 @@ i{
 	margin: auto;
 	margin-right: 20px;
 	margin-left: 20px;
-	margin-bottom: 24px;
+	margin-bottom: 10px;
 }
 .button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color:#f91fb7;
 	color: white;
 	border-radius: 5px;
 	padding: .8rem 1.5rem;
 	border: 1px solid #f91fb7;
 	cursor: pointer;
-	justify-content: center;
+	margin: auto;
+	margin-bottom: 10px;
 }
 /*biografía*/
 .textobio{
