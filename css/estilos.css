@@ -221,7 +221,7 @@ i{
 	margin: auto;
 	margin-right: 20px;
 	margin-left: 20px;
-	margin-bottom: 6px;
+	margin-bottom: 12px;
 }
 .discos2{
 	display: flex;
@@ -230,7 +230,7 @@ i{
 	margin: auto;
 	margin-right: 20px;
 	margin-left: 20px;
-	margin-bottom: 6px;
+	margin-bottom: 12px;
 }
 .discos3{
 	display: flex;
@@ -239,7 +239,7 @@ i{
 	margin: auto;
 	margin-right: 20px;
 	margin-left: 20px;
-	margin-bottom: 6px;
+	margin-bottom: 12px;
 }
 .button{
 	background-color:#f91fb7;
