@@ -52,6 +52,11 @@ body{
 	list-style-type: none;
 	position: center;
 }	
+.mx-auto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .nav-link{
 	color:white;
     font-size: 18px;
