@@ -51,13 +51,13 @@ body{
 	padding: auto;
 }
 .redes{
-	justify-content: space-between
+	justify-content: space-between;
 }
 .redes_sociales{
-	list-style-type: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	list-style-type: none;
 	margin: auto;
 }	
 .mx-auto{
