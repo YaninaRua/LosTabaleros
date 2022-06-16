@@ -310,16 +310,16 @@ button{
 	border: 1px solid #f91fb7;
 	cursor: pointer;
 	margin: auto;
-	margin-bottom: 2rem;ff
+	margin-bottom: 2rem;
 }
 @media all and (max-width:720px){
 	.header_nav{
-		display: flex;
+		display:flex;
 		list-style-type:none;
-		justify-content: space-evenly;
-		flex-direction: row;
-		margin-right: 1rem;
-		position: center;
+		justify-content:space-evenly;
+		flex-direction:row;
+		margin-right:1rem;
+		position:center;
 	}
 	.contacto{
 			margin-left: 100px;	
