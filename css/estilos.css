@@ -377,10 +377,7 @@ button{
 		list-style-type:none;
 		justify-content:space-evenly;
 		flex-direction:row;
-		margin-right:1rem;
+		margin-right: 1rem;
 		position:center;
-	}
-	.contacto{
-			margin-left: 100px;	
 	}
 }
