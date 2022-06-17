@@ -92,6 +92,9 @@ body{
 i{
 	font-size: 3rem;
 }
+a{
+	text-decoration:none
+}
 .producto{
 	display: flex;
 	justify-content: space-between;
