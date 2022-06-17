@@ -369,6 +369,7 @@ button{
 	border: 1px solid #f91fb7;
 	cursor: pointer;
 	margin: auto;
+	margin-bottom: 2rem;
 }
 .modal-title{
 	color:black;
