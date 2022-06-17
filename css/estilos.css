@@ -365,11 +365,13 @@ button{
 	background-color:#f91fb7;
 	color: white;
 	border-radius: 5px;
-	padding: 0.8rem 1.5rem;
+	padding: 0.8rem;
 	border: 1px solid #f91fb7;
 	cursor: pointer;
 	margin: auto;
-	margin-bottom: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-right: 18rem;
 }
 .modal-title{
 	color:black;
