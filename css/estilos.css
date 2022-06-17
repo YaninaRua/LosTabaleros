@@ -297,12 +297,6 @@ a{
     justify-content: space-between;
 }
 /*biografía*/
-.fotobio{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
-}
 .textobio{
 	display: flex;
 	align-items: center;
@@ -384,5 +378,13 @@ button{
 		flex-direction:row;
 		margin-right: 1rem;
 		position:center;
+	}
+    .fotobio{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+		width: 150px;
+		height: 120px;
 	}
 }
