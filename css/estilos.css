@@ -380,11 +380,7 @@ button{
 		position:center;
 	}
     .fotobio{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin: auto;
-		width: 150px;
+        width: 150px;
 		height: 120px;
 	}
 }
