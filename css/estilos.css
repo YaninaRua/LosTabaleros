@@ -391,4 +391,24 @@ button{
         width: 150px;
 		height: 120px;
 	}
+	.titulo{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: bold;
+		text-align: center;
+		color: #f91fb7;
+		font-size: 35px;
+		font-weight: 20px;
+		background-color: white;
+		display: inline;
+		margin: auto;
+		margin-bottom: 5rem;
+		padding: 8px;
+	}
+	.banner{
+		width: 80%;
+		margin: auto;
+		margin-top: 20px;
+	}
 }
