@@ -312,7 +312,13 @@ div{
 }
 /*contacto*/
 .contacto{
-	margin-top: 30px;
+	width:600px;
+	text-align: left;
+	margin: auto;
+	margin-top: 0.2rem;
+	margin-bottom: 1rem;
+	margin-right: 25rem;
+	font-size: 18px;
 }
 .cont{
 	margin: auto;
@@ -324,20 +330,20 @@ div{
 	padding: auto;
 	display: flex;
 	flex-direction: inline;
-	width: 550px;
 	font-size: 18px;
 	text-align: center;
 	margin: auto;
+	margin-left: 5.8rem;
 }
 .color{
 	color:white;
-	padding: auto;
 	display: flex;
-	flex-direction: inline;
-	width: 550px;
 	font-size: 18px;
-	text-align: center;
 	margin: auto;
+	margin-bottom: 1rem;
+	margin-top: 0.5rem;
+	margin-left: 0rem;
+	text-align: left;
 }
 .color1{
 	background-color:#1ff9aa;
