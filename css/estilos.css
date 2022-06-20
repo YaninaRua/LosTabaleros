@@ -463,7 +463,7 @@ button{
 		justify-content: center;
 		margin: auto;
 		margin-left: 1rem;
-		width: 12%;
+		width: 200px;
 	}
 	.button4{
 		display: flex;
@@ -492,7 +492,8 @@ button{
 		margin-left: 6.5rem;
 	}
 	.fotobio{
-		width: 350px;
+		width: 90%;
+		height: 250px;
 	}
 	.textobio{
 		display: flex;
