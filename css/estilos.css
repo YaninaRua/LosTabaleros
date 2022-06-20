@@ -329,7 +329,6 @@ div{
 	display: flex;
 	flex-direction: inline;
 	font-size: 18px;
-	text-align: center;
 	margin: auto;
 	margin-left: 5.8rem;
 }
@@ -346,6 +345,14 @@ div{
 .color1{
 	background-color:#1ff9aa;
 	background-image: url(../assets/collage.png);
+}
+.form-control1{
+	text-align: left;
+	margin: auto;
+	margin-top: 0.2rem;
+	margin-bottom: 1rem;
+	margin-right: 31rem;
+	font-size: 18px;
 }
 button{
 	background-color:#f91fb7;
@@ -410,7 +417,7 @@ button{
 		margin-top: 20px;
 	}
 	.contacto{
-		width: 250px;
+		width: 270px;
 		text-align: left;
 		margin: auto;
 		margin-top: 0.2rem;
@@ -423,7 +430,7 @@ button{
 		margin: auto;
 		margin-top: 0.2rem;
 		margin-bottom: 1rem;
-		margin-right: 9.4rem;
+		margin-right: 10.5rem;
 		font-size: 18px;
 	}
 }
