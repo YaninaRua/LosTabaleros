@@ -379,6 +379,8 @@ div{
 	margin-bottom: 1rem;
 	margin-right: 21.3rem;
 	font-size: 18px;
+	height: 300px; 
+	width: 500px;
 }
 button{
 	background-color:#f91fb7;
@@ -497,8 +499,8 @@ button{
 		margin-bottom: 1rem;
 		margin-right: 10.5rem;
 		font-size: 18px;
-		width: 10rem;
-		height: 10rem;
+		height: 280px; 
+		width: 270px;
 	}
 	.button3{
 		background-color:#f91fb7;
