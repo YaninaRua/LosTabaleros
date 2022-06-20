@@ -53,6 +53,16 @@ body{
 .redes{
 	justify-content: space-between;
 }
+.redes_sociales2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	margin-left: 40.1rem;
+}	
 .redes_sociales{
 	display: flex;
 	align-items: center;
@@ -111,6 +121,22 @@ a{
 	border: 1 px solid;
 	padding: 15 px;
 }
+.button4{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#f91fb7;
+	color: white;
+	border-radius: 5px;
+	padding: 0.8rem;
+	border: 1px solid #f91fb7;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 1.2rem;
+	margin-bottom: 0.4rem;
+	margin-right: 42rem;
+    font-size: 16px;
+}
 .header{
 	color: #fff;
 	font-size: 15px;
@@ -143,7 +169,7 @@ a{
 	color: white;
 	font-size: 25px;
 	margin: auto;
-}  
+} 
 /*galería*/
 .subtitulo3{
 	display: flex;
@@ -376,14 +402,37 @@ button{
 	margin: auto;
 	margin-top: 0.8rem;
 	margin-bottom: 3rem;
-	margin-right: 4rem;
-	margin-left: 4rem;
+	margin-right: 48rem;
     font-size: 16px;
 }
 .modal-title{
 	color:black;
 }
+.redes_sociales1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	margin-left: 24.2rem;
+}
+.mx-auto1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-left: 25rem;
+}
 @media all and (max-width:720px){
+	.banner{
+		display: flex;
+		align-items: center;
+		justify-items: center;
+		margin: auto;
+		margin-bottom: 1rem;
+	} 
 	.header_nav{
 		display:flex;
 		list-style-type:none;
@@ -433,4 +482,58 @@ button{
 		margin-right: 10.5rem;
 		font-size: 18px;
 	}
+	.button3{
+		background-color:#f91fb7;
+		color: white;
+		border-radius: 5px;
+		padding: 0.8rem;
+		border: 1px solid #f91fb7;
+		cursor: pointer;
+		margin: auto;
+		margin-top: 0.8rem;
+		margin-bottom: 3rem;
+		margin-right: 24rem;
+		font-size: 16px;
+	}
+	.redes_sociales1{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		list-style-type: none;
+		margin: auto;
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+	}
+	.mx-auto1{
+		display: flex;
+		margin: auto;
+		margin-left: 1.5rem;
+	}
+	.button4{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color:#f91fb7;
+		color: white;
+		border-radius: 5px;
+		padding: 0.8rem;
+		border: 1px solid #f91fb7;
+		cursor: pointer;
+		margin: auto;
+		margin-top: 1.2rem;
+		margin-bottom: 0.4rem;
+		margin-right: 6.5rem;
+		font-size: 16px;
+	}
+	.redes_sociales2{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		list-style-type: none;
+		margin: auto;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 6.5rem;
+	}	
 }
