@@ -312,7 +312,7 @@ div{
 }
 /*contacto*/
 .contacto{
-	width:600px;
+	width: 600px;
 	text-align: left;
 	margin: auto;
 	margin-top: 0.2rem;
@@ -324,10 +324,8 @@ div{
 	margin: auto;
 	margin-top: 0rem;
 	margin-bottom: 10rem;
-	padding: auto;
 }
 .contenedor-{
-	padding: auto;
 	display: flex;
 	flex-direction: inline;
 	font-size: 18px;
@@ -410,5 +408,22 @@ button{
 		width: 80%;
 		margin: auto;
 		margin-top: 20px;
+	}
+	.contacto{
+		width: 250px;
+		text-align: left;
+		margin: auto;
+		margin-top: 0.2rem;
+		margin-bottom: 1rem;
+		margin-right: 25rem;
+		font-size: 18px;
+	}
+	.form-control1{
+		text-align: left;
+		margin: auto;
+		margin-top: 0.2rem;
+		margin-bottom: 1rem;
+		margin-right: 9.4rem;
+		font-size: 18px;
 	}
 }
