@@ -353,16 +353,6 @@ div{
 	margin: auto;
 	margin-left: 5.8rem;
 }
-.color{
-	color:white;
-	display: flex;
-	font-size: 18px;
-	margin: auto;
-	margin-bottom: 1rem;
-	margin-top: 0.5rem;
-	margin-left: 0rem;
-	text-align: left;
-}
 .form-control1{
 	text-align: left;
 	margin: auto;
@@ -372,6 +362,9 @@ div{
 	font-size: 18px;
 	height: 300px; 
 	width: 500px;
+}
+.color{
+	color:white;
 }
 button{
 	background-color:#f91fb7;
@@ -480,7 +473,7 @@ button{
 		margin-bottom: 1rem;
 		margin-right: 10.5rem;
 		font-size: 18px;
-		height: 280px; 
+		height: 270px; 
 		width: 270px;
 	}
 	.button3{
@@ -500,14 +493,14 @@ button{
 		list-style-type: none;
 		margin: auto;
 		margin-top: 3rem;
-		margin-left: 0.3rem;
+		margin-left: 6.7rem;
 	}
 	.mx-auto1{
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		margin: auto;
-		margin-left: 1.5rem;
+		margin-left: 7.5rem;
 	}
 	.button4{
 		display: flex;
