@@ -378,7 +378,7 @@ div{
 	margin-top: 0.2rem;
 	margin-bottom: 1rem;
 	margin-right: 21.3rem;
-	font-size: 25px;
+	font-size: 18px;
 }
 button{
 	background-color:#f91fb7;
@@ -537,5 +537,19 @@ button{
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		margin-left: 6.5rem;
+	}
+	.cont{
+		margin: auto;
+		margin-top: 0rem;
+		margin-bottom: 0rem;
 	}	
+	.contenedor-{
+		width: 40%;
+		display: flex;
+		flex-direction: inline;
+		font-size: 18px;
+		margin: auto;
+		margin-left: 5.8rem;
+		margin-right: 2rem;
+	}
 }
