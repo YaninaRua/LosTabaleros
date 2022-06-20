@@ -463,6 +463,23 @@ button{
 		width: 80%;
 		margin: auto;
 		margin-top: 20px;
+	}	
+	.contenedor-{
+		width: 10rem;
+		height: 10rem;
+		display: flex;
+		flex-direction: inline;
+		font-size: 18px;
+		margin: auto;
+		margin-left: 5.8rem;
+		margin-right: 2rem;
+	}
+	.cont{
+		margin: auto;
+		margin-top: 0rem;
+		margin-bottom: 0rem;
+		width: 10rem;
+		height: 10rem;
 	}
 	.contacto{
 		width: 270px;
@@ -480,8 +497,8 @@ button{
 		margin-bottom: 1rem;
 		margin-right: 10.5rem;
 		font-size: 18px;
-		height: 50px;
-		width: 50px;
+		width: 10rem;
+		height: 10rem;
 	}
 	.button3{
 		background-color:#f91fb7;
@@ -537,19 +554,5 @@ button{
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		margin-left: 6.5rem;
-	}
-	.cont{
-		margin: auto;
-		margin-top: 0rem;
-		margin-bottom: 0rem;
-	}	
-	.contenedor-{
-		width: 40%;
-		display: flex;
-		flex-direction: inline;
-		font-size: 18px;
-		margin: auto;
-		margin-left: 5.8rem;
-		margin-right: 2rem;
 	}
 }
