@@ -340,18 +340,8 @@ div{
 .contacto{
 	width: 600px;
 	text-align: left;
-}
-.cont{
 	margin: auto;
-	margin-top: 0rem;
-	margin-bottom: 10rem;
-}
-.contenedor-{
-	display: flex;
-	flex-direction: inline;
-	font-size: 18px;
-	margin: auto;
-	margin-left: 5.8rem;
+	margin-left: 32rem;
 }
 .form-control1{
 	text-align: left;
@@ -384,7 +374,7 @@ button{
 	margin: auto;
 	margin-top: 0.8rem;
 	margin-bottom: 3rem;
-	margin-right: 12.5rem;
+	margin-right: 26rem;
     font-size: 16px;
 }
 .modal-title{
@@ -396,9 +386,7 @@ button{
 	justify-content: center;
 	list-style-type: none;
 	margin: auto;
-	margin-top: 3rem;
-	margin-bottom: 1rem;
-	margin-left: 24.2rem;
+	margin-left: 40.5rem;
 }
 .mx-auto1{
 	display: flex;
@@ -442,28 +430,14 @@ button{
 		margin: auto;
 		margin-top: 20px;
 	}	
-	.contenedor-{
-		width: 1rem;
-		height: 1rem;
-		font-size: 18px;
-		margin: auto;
-		margin-left: 5.8rem;
-		margin-right: 2rem;
-	}
-	.cont{
-		margin: auto;
-		margin-top: 0rem;
-		margin-bottom: 0rem;
-		width: 1rem;
-		height: 1rem;
-	}
 	.contacto{
 		width: 270px;
 		text-align: left;
 		margin: auto;
 		margin-top: 0.2rem;
 		margin-bottom: 1rem;
-		margin-right: 25rem;
+		margin-right: 2rem;
+		margin-left: 5rem;
 		font-size: 18px;
 	}
 	.form-control1{
@@ -479,15 +453,11 @@ button{
 	.button3{
 		background-color:#f91fb7;
 		color: white;
-		border-radius: 5px;
-		padding: 0.8rem;
 		border: 1px solid #f91fb7;
 		cursor: pointer;
+		width: 0px;
 		margin: auto;
-		margin-top: 0.8rem;
-		margin-bottom: 3rem;
-		margin-right: 24rem;
-		font-size: 16px;
+		margin-right: 12rem;
 	}
 	.redes_sociales1{
 		list-style-type: none;
