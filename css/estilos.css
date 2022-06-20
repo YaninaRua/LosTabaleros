@@ -79,6 +79,9 @@ a{
 	align-items: center;
 	justify-content: center;
 }
+.modal-title{
+	color:black;
+}
 /*home*/
 .titulo{
 	display: flex;
@@ -354,9 +357,6 @@ button{
 	margin-bottom: 3rem;
 	margin-right: 26rem;
     font-size: 16px;
-}
-.modal-title{
-	color:black;
 }
 .redes_sociales1{
 	display: flex;
