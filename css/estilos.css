@@ -384,13 +384,7 @@ button{
 	justify-content: center;
 	list-style-type: none;
 	margin: auto;
-	margin-left: 40.5rem;
-}
-.mx-auto1{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
+	margin-left: 8rem;
 }
 @media all and (max-width: 720px){
 	.banner{
@@ -461,14 +455,15 @@ button{
 		list-style-type: none;
 		margin: auto;
 		margin-top: 3rem;
-		margin-left: 6.7rem;
+		margin-left: 1rem;
 	}
-	.mx-auto1{
+	.mx-auto{
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		margin: auto;
-		margin-left: 7.5rem;
+		margin-left: 1rem;
+		width: 12%;
 	}
 	.button4{
 		display: flex;
