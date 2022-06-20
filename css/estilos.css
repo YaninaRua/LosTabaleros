@@ -70,11 +70,6 @@ body{
 	margin-top: 3rem;
 	margin-bottom: 1rem;
 }	
-.mx-auto{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 .nav-link{
 	color:white;
     font-size: 18px;
@@ -386,6 +381,14 @@ button{
 	margin: auto;
 	margin-left: 8rem;
 }
+.mx-auto1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-left: 9rem;
+	width: 200px;
+}
 @media all and (max-width: 720px){
 	.banner{
 		display: flex;
@@ -509,5 +512,13 @@ button{
 		height: 300px;
 		margin: auto;
 		margin-left: 0.5rem;
+	}
+	.mx-auto1{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+		margin-left: 2rem;
+		width: 200px;
 	}
 }
