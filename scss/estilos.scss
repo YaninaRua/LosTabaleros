@@ -1,3 +1,4 @@
+/*
 @mixin discos{
     display: flex;
 	justify-content: space-evenly;
@@ -26,5 +27,22 @@
 	@extend .button;
 	background: #1ff9aa;
 }
-
+*/
+.header{
+	color:#fff;
+	font-size: 15px;
+	font-weight: 500;
+	top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 3rem 1.5rem;
+	.header_nav li{
+		display:inline-block;
+		list-style-type:none;
+		justify-content: space-evenly;
+		margin: auto;
+		margin-left: 10.5rem;
+	}
+}
 
