@@ -423,7 +423,6 @@ button{
 	align-items: center;
 	justify-content: center;
 	margin: auto;
-	margin-left: 25rem;
 }
 @media all and (max-width:720px){
 	.banner{
@@ -502,11 +501,12 @@ button{
 		list-style-type: none;
 		margin: auto;
 		margin-top: 3rem;
-		margin-bottom: 1rem;
-		margin-left: 1rem;
+		margin-left: 0.3rem;
 	}
 	.mx-auto1{
 		display: flex;
+		align-items: center;
+		justify-content: center;
 		margin: auto;
 		margin-left: 1.5rem;
 	}
