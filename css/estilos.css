@@ -340,11 +340,6 @@ div{
 .contacto{
 	width: 600px;
 	text-align: left;
-	margin: auto;
-	margin-top: 0.2rem;
-	margin-bottom: 1rem;
-	margin-right: 15rem;
-	font-size: 18px;
 }
 .cont{
 	margin: auto;
@@ -418,7 +413,7 @@ button{
 	justify-content: center;
 	margin: auto;
 }
-@media all and (max-width:720px){
+@media all and (max-width: 720px){
 	.banner{
 		display: flex;
 		align-items: center;
@@ -448,7 +443,6 @@ button{
 		display: inline;
 		margin: auto;
 		margin-bottom: 5rem;
-		padding: 8px;
 	}
 	.banner{
 		width: 80%;
