@@ -438,14 +438,12 @@ button{
 		list-style-type: none;
 		margin: auto;
 		margin-top: 3rem;
-		margin-left: 1rem;
 	}
 	.mx-auto{
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		margin: auto;
-		margin-left: 1rem;
 		width: 200px;
 	}
 	.button4{
@@ -472,7 +470,6 @@ button{
 		margin: auto;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
-		margin-left: 6.5rem;
 	}
 	.textobio{
 		display: flex;
@@ -497,7 +494,6 @@ button{
 		align-items: center;
 		justify-content: center;
 		margin: auto;
-		margin-left: 2rem;
 		width: 200px;
 	}
 }
