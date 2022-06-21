@@ -479,7 +479,7 @@ button{
 		align-items: center;
 		justify-content: center;
 		flex-direction: inline;
-		width: 395px;
+		width: 380px;
 		font-size: 18px;
 		color: white;
 		margin: auto;
@@ -488,7 +488,7 @@ button{
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 400px;
+		width: 380px;
 		height: 280px;
 		margin: auto;
 	}
