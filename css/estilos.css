@@ -488,10 +488,9 @@ button{
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 420px;
-		height: 300px;
+		width: 400px;
+		height: 280px;
 		margin: auto;
-		margin-left: 0.5rem;
 	}
 	.mx-auto1{
 		display: flex;
