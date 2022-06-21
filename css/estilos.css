@@ -107,7 +107,6 @@ a{
 	margin: auto;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
-	margin-left: 40.1rem;
 }	
 .button4{
 	display: flex;
@@ -122,14 +121,12 @@ a{
 	margin: auto;
 	margin-top: 1.2rem;
 	margin-bottom: 0.4rem;
-	margin-right: 42rem;
     font-size: 16px;
 }
 .p{
 	font-size: 30px;
 	font-weight: bold;
 	margin: auto;
-	margin-left: 0.5rem;
 	margin-top: 1rem;
 	margin-bottom: 1.5rem;
 }
