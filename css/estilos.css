@@ -473,7 +473,7 @@ button{
 		align-items: center;
 		justify-content: center;
 		flex-direction: inline;
-		width: 360px;
+		width: 320px;
 		font-size: 18px;
 		color: white;
 		margin: auto;
@@ -482,8 +482,8 @@ button{
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 360px;
-		height: 280px;
+		width: 320px;
+		height: 230px;
 		margin: auto;
 	}
 	.mx-auto1{
