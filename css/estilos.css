@@ -326,6 +326,7 @@ div{
 	text-align: left;
 	margin: auto;
 	margin-left: 32rem;
+	font-size: 18px;
 }
 .form-control1{
 	text-align: left;
@@ -333,7 +334,7 @@ div{
 	margin-top: 0.2rem;
 	margin-bottom: 1rem;
 	margin-right: 21.3rem;
-	font-size: 18px;
+	font-size: 16px;
 	height: 300px; 
 	width: 500px;
 }
