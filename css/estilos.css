@@ -467,13 +467,13 @@ button{
 		margin: auto;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
-		margin-left: 5rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
 	}
 	.textobio{
 		display: flex;
 		align-items: center;
-		just
-		ify-content: center;
+		justify-content: center;
 		flex-direction: inline;
 		width: 320px;
 		font-size: 18px;
