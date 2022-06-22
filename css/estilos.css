@@ -55,7 +55,7 @@ a{
 	align-items: center;
 	padding: 3rem 1.5rem;
 }
-.header_nav li{
+.header li{
 	display: inline-block;
 	list-style-type: none;
 	justify-content: space-evenly;
