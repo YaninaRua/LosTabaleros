@@ -1,33 +1,8 @@
-/*
-@mixin discos{
-    display: flex;
-	justify-content: space-evenly;
-	flex-direction: row;
-	list-style-type: none;
-	margin-left: 1 rem;
-	color:  white;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.discos1{
-	@include discos;
-}
-.discos2{
-    @include discos;
-}
-.discos3{
-    @include discos;
-}
-.button {
-	border:none;
-	padding: 5px 10px;
-	text-align: center;
-	font-size: 10px;
-	box-shadow: 2px 2px 10px #000;
-}
-.orange{
-	@extend .button;
-	background: #1ff9aa;
-}
-*/
+
 body {
   font-family: 'Roboto Mono', monoespacio;
   margin: 20px;
@@ -70,5 +45,32 @@ body {
           justify-content: space-evenly;
   margin: auto;
   margin-left: 10.5rem;
+}
+
+.header li .nav-link {
+  color: white;
+  font-size: 18px;
+}
+
+.redes {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.redes .redes_sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=estilos.css.map */
