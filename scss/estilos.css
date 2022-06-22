@@ -28,6 +28,18 @@
 	background: #1ff9aa;
 }
 */
+body {
+  font-family: 'Roboto Mono', monoespacio;
+  margin: 20px;
+  text-align: center;
+  background-color: #1ff9aa;
+  background-size: cover;
+  position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-size: 1.5rem;
+}
+
 .header {
   color: #fff;
   font-size: 15px;
@@ -45,7 +57,12 @@
   padding: 3rem 1.5rem;
 }
 
-.header .header_nav li {
+.header .logotaba {
+  margin: auto;
+  margin-left: 0px;
+}
+
+.header li {
   display: inline-block;
   list-style-type: none;
   -webkit-box-pack: space-evenly;
