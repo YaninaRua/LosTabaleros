@@ -193,6 +193,44 @@ body{
 	margin-bottom: 3rem;
 	width: 200px;
 }
+.contacto{
+	width: 600px;
+	text-align: left;
+	margin: auto;
+	margin-left: 32rem;
+	font-size: 18px;
+	.formcontrol1{
+		text-align: left;
+		margin: auto;
+		margin-top: 0.2rem;
+		margin-bottom: 1rem;
+		margin-right: 21.3rem;
+		font-size: 16px;
+		height: 300px;
+		width: 500px;
+	}
+}
+.button3{
+	background-color: #f91fb7;
+	color: white;
+	border-radius: 5px;
+	padding: 0.8rem;
+	border: 1px solid #f91fb7;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 0.8rem;
+	margin-bottom: 3rem;
+	margin-right: 26rem;
+	font-size: 16px;
+}
+.mx-auto1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-left: 9rem;
+	width: 200px;
+}
 div{
 	color: white;
 	#footer{
@@ -209,6 +247,20 @@ div{
 				margin: auto;
 				margin-top: 3rem;
 				margin-bottom: 1rem;
+				a{
+					text-decoration: none;
+				}
+				i{
+					font-size: 3rem;
+				}
+			}
+			.redes_sociales1{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				list-style-type: none;
+				margin: auto;
+				margin-left: 8rem;
 				a{
 					text-decoration: none;
 				}
