@@ -12,6 +12,11 @@ body{
 	background-repeat: no-repeat;
 	height: 100vh;
 	font-size: 1.5rem;
+	.fondocontacto{
+		background-image: url(../assets/collage.png);
+		background-size: cover;
+		background-repeat: repeat;
+	}
 }
 .header{
 	color:#fff;
@@ -146,6 +151,47 @@ body{
 			}
 	    }
 	}
+}
+.h4{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 25px;
+	margin: auto;
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+	width: 200px;
+	padding: auto;
+}
+.grupos{
+	justify-content: center;
+	align-items: center;
+	.grupo1 .grupo2 .grupo3 .grupo4 .grupo5 .grupo6{
+		display: flex;
+		justify-content: space-evenly;
+		margin: auto;
+		margin-bottom: 24px;
+	    margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+.h5{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	font-weight: 25px;
+	margin: auto;
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+	width: 200px;
 }
 div{
 	color: white;
