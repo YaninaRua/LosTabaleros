@@ -57,19 +57,117 @@ body {
   font-size: 18px;
 }
 
-#footer {
+.h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  color: #f91fb7;
+  font-size: 45px;
+  font-weight: 25px;
+  background-color: white;
+  display: inline;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 12px;
+}
+
+.p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.button1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f91fb7;
+  color: white;
+  border-radius: 5px;
+  padding: 0.8rem;
+  border: 1px solid #f91fb7;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  font-size: 16px;
+}
+
+.h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 25px;
+  margin: auto;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+}
+
+.textobio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  text-align: justify;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: inline;
+          flex-direction: inline;
+  width: 750px;
+  font-size: 18px;
+  color: white;
+  margin: auto;
+}
+
+div {
+  color: white;
+}
+
+div #footer {
   color: white;
   font-size: 25px;
   margin: auto;
 }
 
-#footer .redes {
+div #footer .redes {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-#footer .redes .redes_sociales {
+div #footer .redes .redes_sociales {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,15 +183,15 @@ body {
   margin-bottom: 1rem;
 }
 
-#footer .redes .redes_sociales a {
+div #footer .redes .redes_sociales a {
   text-decoration: none;
 }
 
-#footer .redes .redes_sociales i {
+div #footer .redes .redes_sociales i {
   font-size: 3rem;
 }
 
-#footer .mx-auto {
+div #footer .mx-auto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +203,7 @@ body {
           justify-content: center;
 }
 
-#footer .modal-title {
+div #footer .modal-title {
   color: black;
 }
 /*# sourceMappingURL=estilos.css.map */
