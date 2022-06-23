@@ -22,19 +22,23 @@ body{
 	justify-content: space-between;
 	align-items:center;
 	padding: 3rem 1.5rem;
-	.logotaba{
-		margin: auto;
-		margin-left: 0px;
-	}
-	li{
-		display: inline-block;
-		list-style-type:none;
-		justify-content: space-evenly;
-		margin: auto;
-		margin-left: 10.5rem;
-	.nav-link{
-			color: white;
-			font-size: 18px;
+	.container-flex{
+		margin:auto;
+		margin-bottom: 4rem;
+		.logotaba{
+			margin: auto;
+			margin-left: 0px;
+		}
+		li{
+			display: inline-block;
+			list-style-type:none;
+			justify-content: space-evenly;
+			margin: auto;
+			margin-left: 10.5rem;
+		.nav-link{
+				color: white;
+				font-size: 18px;
+			}
 		}
 	}
 }
@@ -48,6 +52,12 @@ body{
 		margin: auto;
 		margin-top: 3rem;
 		margin-bottom: 1rem;
+		a{
+			text-decoration: none;
+		}
+		i{
+			font-size: 3rem;
+		}
 	}
 }
 

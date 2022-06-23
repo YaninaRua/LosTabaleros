@@ -30,20 +30,20 @@ body{
 	margin: auto;
 	margin-top: 3rem;
 	margin-bottom: 1rem;
-}	
-.nav-link{
-	color:white;
-    font-size: 18px;
 }
-.container-flex{
-	margin: auto;
-	margin-bottom: 4rem;
+a{
+	text-decoration: none;
 }
 i{
 	font-size: 3rem;
 }
-a{
-	text-decoration:none
+.container-flex{
+	margin: auto;
+	margin-bottom: 4rem;
+}	
+.nav-link{
+	color:white;
+    font-size: 18px;
 }
 .header{
 	color: #fff;
@@ -83,7 +83,7 @@ a{
 	color:black;
 }
 /*home*/
-.titulo{
+.h{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -99,15 +99,6 @@ a{
 	margin-bottom: 2rem;
 	padding: 12px;
 }
-.redes_sociales2{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	list-style-type: none;
-	margin: auto;
-	margin-top: 3rem;
-	margin-bottom: 1rem;
-}	
 .button4{
 	display: flex;
 	align-items: center;
@@ -394,7 +385,7 @@ button{
 		margin-right: 1rem;
 		position:center;
 	}
-	.titulo{
+	.h{
 		font-weight: bold;
 		text-align: center;
 		color: #f91fb7;
@@ -463,15 +454,6 @@ button{
 		margin-top: 1.2rem;
 		margin-bottom: 0.4rem;
 		font-size: 16px;
-	}
-	.redes_sociales2{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		list-style-type: none;
-		margin: auto;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
 	}
 	.textobio{
 		display: flex;
