@@ -151,6 +151,71 @@ body {
   margin: auto;
 }
 
+.h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 25px;
+  margin: auto;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+  width: 200px;
+  padding: auto;
+}
+
+.discos {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.discos .discos1 .discos2 .discos3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.discos .discos1 .discos2 .discos3 .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f91fb7;
+  color: white;
+  border-radius: 5px;
+  padding: .8rem 1.5rem;
+  border: 1px solid #f91fb7;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
 div {
   color: white;
 }
