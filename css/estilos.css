@@ -195,20 +195,6 @@ i{
 	margin-left: 20px;
 	margin-bottom: 10px;
 }
-.button{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color:#f91fb7;
-	color: white;
-	border-radius: 5px;
-	padding: .8rem 1.5rem;
-	border: 1px solid #f91fb7;
-	cursor: pointer;
-	margin: auto;
-	margin-top: 3rem;
-	margin-bottom: 6rem;
-}
 .botones1{
 	display:flex;
 	flex-direction: row;
@@ -223,6 +209,20 @@ i{
 	display:flex;
 	flex-direction: row;
     justify-content: space-between;
+}
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#f91fb7;
+	color: white;
+	border-radius: 5px;
+	padding: .8rem 1.5rem;
+	border: 1px solid #f91fb7;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 6rem;
 }
 /*galería*/
 .h4{
