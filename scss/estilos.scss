@@ -80,35 +80,63 @@ body{
 	margin-bottom: 0.4rem;
 	font-size: 16px;
 }
-#footer{
+.h2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	text-align: center;
 	color: white;
-	font-size: 25px;
-	margin:auto;
-	.redes{
-		justify-content: space-between;
-		.redes_sociales{
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			list-style-type: none;
-			margin: auto;
-			margin-top: 3rem;
-			margin-bottom: 1rem;
-			a{
-				text-decoration: none;
-			}
-			i{
-				font-size: 3rem;
+	font-size: 40px;
+	font-weight: 25px;
+	margin: auto;
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+}
+.textobio{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	text-align: justify;
+	flex-direction: inline;
+    width: 750px;
+	font-size: 18px;
+	color:white;
+	margin: auto;
+}
+div{
+	color: white;
+	#footer{
+		color: white;
+		font-size: 25px;
+		margin:auto;
+		.redes{
+			justify-content: space-between;
+			.redes_sociales{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				list-style-type: none;
+				margin: auto;
+				margin-top: 3rem;
+				margin-bottom: 1rem;
+				a{
+					text-decoration: none;
+				}
+				i{
+					font-size: 3rem;
+				}
 			}
 		}
-	}
-	.mx-auto{
-		display: flex;
-		align-items: center;
-		justify-content: center;	
-	}
-	.modal-title{
-		color:black;
+		.mx-auto{
+			display: flex;
+			align-items: center;
+			justify-content: center;	
+		}
+		.modal-title{
+			color:black;
+		}
 	}
 }
+
 
