@@ -15,6 +15,12 @@ body {
   font-size: 1.5rem;
 }
 
+body .fondocontacto {
+  background-image: url(../assets/collage.png);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
 .header {
   color: #fff;
   font-size: 15px;
@@ -216,6 +222,119 @@ body {
   margin-bottom: 6rem;
 }
 
+.h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 25px;
+  margin: auto;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+  width: 200px;
+  padding: auto;
+}
+
+.grupos {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grupos .grupo1 .grupo2 .grupo3 .grupo4 .grupo5 .grupo6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 25px;
+  margin: auto;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+  width: 200px;
+}
+
+.contacto {
+  width: 600px;
+  text-align: left;
+  margin: auto;
+  margin-left: 32rem;
+  font-size: 18px;
+}
+
+.contacto .formcontrol1 {
+  text-align: left;
+  margin: auto;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  margin-right: 21.3rem;
+  font-size: 16px;
+  height: 300px;
+  width: 500px;
+}
+
+.button3 {
+  background-color: #f91fb7;
+  color: white;
+  border-radius: 5px;
+  padding: 0.8rem;
+  border: 1px solid #f91fb7;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 0.8rem;
+  margin-bottom: 3rem;
+  margin-right: 26rem;
+  font-size: 16px;
+}
+
+.mx-auto1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-left: 9rem;
+  width: 200px;
+}
+
 div {
   color: white;
 }
@@ -253,6 +372,29 @@ div #footer .redes .redes_sociales a {
 }
 
 div #footer .redes .redes_sociales i {
+  font-size: 3rem;
+}
+
+div #footer .redes .redes_sociales1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin: auto;
+  margin-left: 8rem;
+}
+
+div #footer .redes .redes_sociales1 a {
+  text-decoration: none;
+}
+
+div #footer .redes .redes_sociales1 i {
   font-size: 3rem;
 }
 
