@@ -99,7 +99,14 @@ i{
 	margin-bottom: 2rem;
 	padding: 12px;
 }
-.button4{
+.p{
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+.button1{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -113,13 +120,6 @@ i{
 	margin-top: 1.2rem;
 	margin-bottom: 0.4rem;
     font-size: 16px;
-}
-.p{
-	font-size: 30px;
-	font-weight: bold;
-	margin: auto;
-	margin-top: 1rem;
-	margin-bottom: 1.5rem;
 }
 /*biografía*/
 .h2{
@@ -195,7 +195,7 @@ div{
 	margin-left: 20px;
 	margin-bottom: 10px;
 }
-.button{
+.button2{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -332,14 +332,6 @@ div{
 .color{
 	color:white;
 }
-button{
-	background-color:#f91fb7;
-	color: white;
-	border-radius: 5px;
-	padding: .8rem 1.5rem;
-	border: 1px solid #f91fb7;
-	cursor: pointer;
-}
 .button3{
 	background-color:#f91fb7;
 	color: white;
@@ -440,7 +432,7 @@ button{
 		margin: auto;
 		width: 200px;
 	}
-	.button4{
+	.button1{
 		display: flex;
 		align-items: center;
 		justify-content: center;
