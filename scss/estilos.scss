@@ -42,22 +42,35 @@ body{
 		}
 	}
 }
-.redes{
-	justify-content: space-between;
-	.redes_sociales{
+#footer{
+	color: white;
+	font-size: 25px;
+	margin:auto;
+	.redes{
+		justify-content: space-between;
+		.redes_sociales{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			list-style-type: none;
+			margin: auto;
+			margin-top: 3rem;
+			margin-bottom: 1rem;
+			a{
+				text-decoration: none;
+			}
+			i{
+				font-size: 3rem;
+			}
+		}
+	}
+	.mx-auto{
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		list-style-type: none;
-		margin: auto;
-		margin-top: 3rem;
-		margin-bottom: 1rem;
-		a{
-			text-decoration: none;
-		}
-		i{
-			font-size: 3rem;
-		}
+		justify-content: center;	
+	}
+	.modal-title{
+		color:black;
 	}
 }
 

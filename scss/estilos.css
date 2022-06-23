@@ -32,12 +32,17 @@ body {
   padding: 3rem 1.5rem;
 }
 
-.header .logotaba {
+.header .container-flex {
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.header .container-flex .logotaba {
   margin: auto;
   margin-left: 0px;
 }
 
-.header li {
+.header .container-flex li {
   display: inline-block;
   list-style-type: none;
   -webkit-box-pack: space-evenly;
@@ -47,7 +52,7 @@ body {
   margin-left: 10.5rem;
 }
 
-.header li .nav-link {
+.header .container-flex li .nav-link {
   color: white;
   font-size: 18px;
 }
@@ -72,5 +77,13 @@ body {
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 1rem;
+}
+
+.redes .redes_sociales a {
+  text-decoration: none;
+}
+
+.redes .redes_sociales i {
+  font-size: 3rem;
 }
 /*# sourceMappingURL=estilos.css.map */

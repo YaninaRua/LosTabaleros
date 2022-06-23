@@ -44,6 +44,11 @@ body{
 	color:white;
     font-size: 18px;
 }
+#footer{
+	color: white;
+	font-size: 25px;
+	margin: auto;
+} 
 .redes{
 	justify-content: space-between;
 }
@@ -62,18 +67,6 @@ a{
 i{
 	font-size: 3rem;
 }
-.contain{
-	object-fit: contain;
-}
-.foto:hover{
-	transform: scale(1.1);
-	transition: all 250 ms;
-}
-#footer{
-	color: white;
-	font-size: 25px;
-	margin: auto;
-} 
 .mx-auto{
 	display: flex;
 	align-items: center;
@@ -81,6 +74,13 @@ i{
 }
 .modal-title{
 	color:black;
+}
+.contain{
+	object-fit: contain;
+}
+.foto:hover{
+	transform: scale(1.1);
+	transition: all 250 ms;
 }
 /*home*/
 .h1{
