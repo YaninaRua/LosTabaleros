@@ -15,9 +15,34 @@ body{
 	height: 100vh;
 	font-size: 1.5rem;
 }
+.header{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem 1.5rem;
+}
+.container-flex{
+	margin: auto;
+	margin-bottom: 4rem;
+}	
 .logotaba{
 	margin: auto;
 	margin-left: 0px;
+}
+.header li{
+	display: inline-block;
+	list-style-type: none;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-left: 10.5rem;
+}
+.nav-link{
+	color:white;
+    font-size: 18px;
 }
 .redes{
 	justify-content: space-between;
@@ -36,31 +61,6 @@ a{
 }
 i{
 	font-size: 3rem;
-}
-.container-flex{
-	margin: auto;
-	margin-bottom: 4rem;
-}	
-.nav-link{
-	color:white;
-    font-size: 18px;
-}
-.header{
-	color: #fff;
-	font-size: 15px;
-	font-weight: 500;
-	top: 15px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 3rem 1.5rem;
-}
-.header li{
-	display: inline-block;
-	list-style-type: none;
-	justify-content: space-evenly;
-	margin: auto;
-	margin-left: 10.5rem;
 }
 .contain{
 	object-fit: contain;
@@ -83,7 +83,7 @@ i{
 	color:black;
 }
 /*home*/
-.h{
+.h1{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -122,7 +122,7 @@ i{
 	margin-bottom: 1.5rem;
 }
 /*biografía*/
-.subtitulo{
+.h2{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -150,7 +150,7 @@ div{
 	color: white;
 }	
 /*discografía*/
-.subtitulo2{
+.h3{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -225,7 +225,7 @@ div{
     justify-content: space-between;
 }
 /*galería*/
-.subtitulo3{
+.h4{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -298,7 +298,7 @@ div{
 	background-size: cover;
 	background-repeat: repeat;
 }
-.subtitulo1{
+.h5{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -385,7 +385,7 @@ button{
 		margin-right: 1rem;
 		position:center;
 	}
-	.h{
+	.h1{
 		font-weight: bold;
 		text-align: center;
 		color: #f91fb7;
