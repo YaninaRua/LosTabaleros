@@ -57,13 +57,19 @@ body {
   font-size: 18px;
 }
 
-.redes {
+#footer {
+  color: white;
+  font-size: 25px;
+  margin: auto;
+}
+
+#footer .redes {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.redes .redes_sociales {
+#footer .redes .redes_sociales {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,11 +85,27 @@ body {
   margin-bottom: 1rem;
 }
 
-.redes .redes_sociales a {
+#footer .redes .redes_sociales a {
   text-decoration: none;
 }
 
-.redes .redes_sociales i {
+#footer .redes .redes_sociales i {
   font-size: 3rem;
+}
+
+#footer .mx-auto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer .modal-title {
+  color: black;
 }
 /*# sourceMappingURL=estilos.css.map */
