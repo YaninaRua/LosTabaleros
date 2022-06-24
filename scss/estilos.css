@@ -63,6 +63,24 @@ body .fondocontacto {
   font-size: 18px;
 }
 
+@media all and (max-width: 720px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-right: 1rem;
+    position: center;
+  }
+}
+
 .h1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,6 +102,36 @@ body .fondocontacto {
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 12px;
+}
+
+@media all and (max-width: 720px) {
+  .h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #f91fb7;
+    font-size: 35px;
+    font-weight: 20px;
+    background-color: white;
+    display: inline;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    width: 80%;
+  }
 }
 
 .p {
@@ -114,6 +162,30 @@ body .fondocontacto {
   margin-top: 1.2rem;
   margin-bottom: 0.4rem;
   font-size: 16px;
+}
+
+@media all and (max-width: 720px) {
+  .button1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #f91fb7;
+    color: white;
+    border-radius: 5px;
+    padding: 0.8rem;
+    border: 1px solid #f91fb7;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+    font-size: 16px;
+  }
 }
 
 .h2 {
@@ -155,6 +227,28 @@ body .fondocontacto {
   font-size: 18px;
   color: white;
   margin: auto;
+}
+
+@media all and (max-width: 720px) {
+  .textobio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: inline;
+            flex-direction: inline;
+    width: 320px;
+    font-size: 18px;
+    color: white;
+    margin: auto;
+  }
 }
 
 .h3 {
@@ -306,6 +400,36 @@ body .fondocontacto {
   width: 500px;
 }
 
+@media all and (max-width: 720px) {
+  .contacto .formcontrol1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 16px;
+    height: 200px;
+    width: 170px;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .contacto {
+    width: 170px;
+    text-align: left;
+    margin: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 5rem;
+    font-size: 16px;
+  }
+}
+
 .button3 {
   background-color: #f91fb7;
   color: white;
@@ -318,6 +442,18 @@ body .fondocontacto {
   margin-bottom: 3rem;
   margin-right: 26rem;
   font-size: 16px;
+}
+
+@media all and (max-width: 720px) {
+  .button3 {
+    background-color: #f91fb7;
+    color: white;
+    border: 1px solid #f91fb7;
+    cursor: pointer;
+    width: 0px;
+    margin: auto;
+    margin-right: 12rem;
+  }
 }
 
 .mx-auto1 {
@@ -333,6 +469,22 @@ body .fondocontacto {
   margin: auto;
   margin-left: 9rem;
   width: 200px;
+}
+
+@media all and (max-width: 720px) {
+  .mx-auto1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    width: 200px;
+  }
 }
 
 div {
@@ -390,6 +542,14 @@ div #footer .redes .redes_sociales1 {
   margin-left: 8rem;
 }
 
+@media all and (max-width: 720px) {
+  div #footer .redes .redes_sociales1 {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 3 rem;
+  }
+}
+
 div #footer .redes .redes_sociales1 a {
   text-decoration: none;
 }
@@ -408,6 +568,22 @@ div #footer .mx-auto {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media all and (max-width: 720px) {
+  div #footer .mx-auto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    width: 200px;
+  }
 }
 
 div #footer .modal-title {
