@@ -402,6 +402,14 @@ i{
 		margin-bottom: 0.4rem;
 		font-size: 16px;
 	}
+	.contain1{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 320px;
+		height: 230px;
+		margin: auto;
+	}
 	.textobio{
 		display: flex;
 		align-items: center;
@@ -457,13 +465,5 @@ i{
 		justify-content: center;
 		margin: auto;
 		width: 200px;
-	}
-	.contain1{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 320px;
-		height: 230px;
-		margin: auto;
 	}
 }

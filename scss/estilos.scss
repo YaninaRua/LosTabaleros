@@ -143,6 +143,16 @@ body{
 	margin-top: 0rem;
 	margin-bottom: 3rem;
 }
+.contain1{
+	@media all and (max-width: 720px){
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 320px;
+		height: 230px;
+		margin: auto;
+	}
+}
 .textobio{
 	display: flex;
 	align-items: center;
