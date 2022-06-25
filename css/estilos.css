@@ -76,7 +76,7 @@ i{
 	justify-content: center;
 }
 .modal-title{
-	color:black;
+	color: #000;
 }
 .contain{
 	object-fit: contain;
