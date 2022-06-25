@@ -41,14 +41,14 @@ body{
 	margin-left: 10.5rem;
 }
 .nav-link{
-	color:white;
+	color: #fff;
     font-size: 18px;
 }
 div{
-	color: white;
+	color: #fff;
 }	
 #footer{
-	color: white;
+	color: #fff;
 	font-size: 25px;
 	margin: auto;
 } 
@@ -91,7 +91,7 @@ i{
 	color: #f91fb7;
 	font-size: 45px;
 	font-weight: 25px;
-	background-color: white;
+	background-color: #fff;
 	display: inline;
 	margin: auto;
 	margin-top: 2rem;
@@ -110,7 +110,7 @@ i{
 	align-items: center;
 	justify-content: center;
 	background-color:#f91fb7;
-	color: white;
+	color: #fff;
 	border-radius: 5px;
 	padding: 0.8rem;
 	border: 1px solid #f91fb7;
@@ -127,7 +127,7 @@ i{
 	justify-content: center;
 	font-weight: bold;
 	text-align: center;
-	color: white;
+	color: #fff;
 	font-size: 40px;
 	font-weight: 25px;
 	margin: auto;
@@ -142,7 +142,7 @@ i{
 	flex-direction: inline;
 	width: 750px;
 	font-size: 18px;
-	color: white;
+	color: #fff;
 	margin: auto;
 }
 /*discografía*/
@@ -152,7 +152,7 @@ i{
 	justify-content: center;
 	font-weight: bold;
 	text-align: center;
-	color: white;
+	color: #fff;
 	font-size: 40px;
 	font-weight: 25px;
 	margin: auto;
@@ -211,7 +211,7 @@ i{
 	align-items: center;
 	justify-content: center;
 	background-color:#f91fb7;
-	color: white;
+	color: #fff;
 	border-radius: 5px;
 	padding: .8rem 1.5rem;
 	border: 1px solid #f91fb7;
@@ -227,7 +227,7 @@ i{
 	justify-content: center;
 	font-weight: bold;
 	text-align: center;
-	color: white;
+	color: #fff;
 	font-size: 40px;
 	font-weight: 25px;
 	margin: auto;
@@ -304,7 +304,7 @@ i{
 	justify-content: center;
 	font-weight: bold;
 	text-align: center;
-	color: white;
+	color: #fff;
 	font-size: 35px;
 	font-weight: 25px;
 	margin: auto;
@@ -331,7 +331,7 @@ i{
 }
 .button3{
 	background-color:#f91fb7;
-	color: white;
+	color: #fff;
 	border-radius: 5px;
 	padding: 0.8rem;
 	border: 1px solid #f91fb7;
@@ -373,7 +373,7 @@ i{
 		color: #f91fb7;
 		font-size: 35px;
 		font-weight: 20px;
-		background-color: white;
+		background-color: #fff;
 		display: inline;
 		margin: auto;
 		margin-bottom: 5rem;
@@ -392,7 +392,7 @@ i{
 		align-items: center;
 		justify-content: center;
 		background-color:#f91fb7;
-		color: white;
+		color: #fff;
 		border-radius: 5px;
 		padding: 0.8rem;
 		border: 1px solid #f91fb7;
@@ -417,7 +417,7 @@ i{
 		flex-direction: inline;
 		width: 320px;
 		font-size: 18px;
-		color: white;
+		color: #fff;
 		margin: auto;
 	}
 	.form-control1{
@@ -440,7 +440,7 @@ i{
 	}
 	.button3{
 		background-color:#f91fb7;
-		color: white;
+		color: #fff;
 		border: 1px solid #f91fb7;
 		cursor: pointer;
 		width: 0px;
