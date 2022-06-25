@@ -81,10 +81,6 @@ i{
 .contain{
 	object-fit: contain;
 }
-.foto:hover{
-	transform: scale(1.1);
-	transition: all 250 ms;
-}
 /*home*/
 .h1{
 	display: flex;
@@ -291,6 +287,10 @@ i{
 	margin-bottom: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+.foto:hover{
+	transform: scale(1.1);
+	transition: all 250 ms;
 }
 /*contacto*/
 .fondocontacto{

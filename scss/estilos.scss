@@ -199,6 +199,9 @@ body{
 		margin-right: 20px;
 		margin-left: 20px;
 		margin-bottom: 10px;
+		.contain{
+			object-fit: contain;
+		}
 		.botones1 .botones2 .botones3{
 			.button{
 				display: flex;
@@ -242,6 +245,13 @@ body{
 		margin-bottom: 24px;
 	    margin-left: 20px;
 		margin-right: 20px;
+		.foto &:hover{
+			transform: scale(1.1);
+			transition: all 250ms;
+			.contain{
+				object-fit: contain;
+			}
+		}
 	}
 }
 .h5{
