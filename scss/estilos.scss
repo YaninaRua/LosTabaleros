@@ -225,19 +225,100 @@ body{
 .grupos{
 	justify-content: center;
 	align-items: center;
-	.grupo1 .grupo2 .grupo3 .grupo4 .grupo5 .grupo6{
-		display: flex;
-		justify-content: space-evenly;
-		margin: auto;
-		margin-bottom: 24px;
-	    margin-left: 20px;
-		margin-right: 20px;
-		.foto &:hover{
-			transform: scale(1.1);
-			transition: all 250ms;
-			.contain{
-				object-fit: contain;
-			}
+}
+.grupo1{
+	@extend .grupos;
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 20px;
+	margin-right: 20px;
+	.foto &:hover{
+		transform: scale(1.1);
+		transition: all 250ms;
+		.contain{
+			object-fit: contain;
+		}
+	}
+}
+.grupo2{
+	@extend .grupos;
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 20px;
+	margin-right: 20px;
+	.foto &:hover{
+		transform: scale(1.1);
+		transition: all 250ms;
+		.contain{
+			object-fit: contain;
+		}
+	}
+}
+.grupo3{
+	@extend .grupos;
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 20px;
+	margin-right: 20px;
+	.foto &:hover{
+		transform: scale(1.1);
+		transition: all 250ms;
+		.contain{
+			object-fit: contain;
+		}
+	}
+}
+.grupo4{
+	@extend .grupos;
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 20px;
+	margin-right: 20px;
+	.foto &:hover{
+		transform: scale(1.1);
+		transition: all 250ms;
+		.contain{
+			object-fit: contain;
+		}
+	}
+}
+.grupo5{
+	@extend .grupos;
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 20px;
+	margin-right: 20px;
+	.foto &:hover{
+		transform: scale(1.1);
+		transition: all 250ms;
+		.contain{
+			object-fit: contain;
+		}
+	}
+}
+.grupo6{
+	@extend .grupos;
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	margin-bottom: 24px;
+	margin-left: 20px;
+	margin-right: 20px;
+	.foto &:hover{
+		transform: scale(1.1);
+		transition: all 250ms;
+		.contain{
+			object-fit: contain;
 		}
 	}
 }
