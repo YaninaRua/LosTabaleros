@@ -1,4 +1,6 @@
 @import "main";
+@import "fuentes";
+@import "animacion"
 * {
 	margin:0px;
 	padding:0px;
@@ -13,11 +15,11 @@ body{
 	background-repeat: no-repeat;
 	height: 100vh;
 	font-size: 1.5rem;
-	.fondocontacto{
-		background-image: url(../assets/collage.png);
-		background-size: cover;
-		background-repeat: repeat;
-	}
+}
+.fondocontacto{
+	background-image: url(../assets/collage.png);
+	background-size: cover;
+	background-repeat: repeat;
 }
 .header{
 	color: map-get($map: $palette, $key: 'Tercero');
@@ -203,23 +205,30 @@ body{
 		.contain{
 			object-fit: contain;
 		}
-		.botones1 .botones2 .botones3{
-			.button{
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				background-color: map-get($map: $palette, $key: 'Segundo');
-				color: map-get($map: $palette, $key: 'Tercero');
-				border-radius: 5px;
-				padding: .8rem 1.5rem;
-				border: 1px solid map-get($map: $palette, $key: 'Segundo');
-				cursor: pointer;
-				margin: auto;
-				margin-top: 3rem;
-				margin-bottom: 6rem;
-			}
-	    }
 	}
+}
+@mixin button{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: map-get($map: $palette, $key: 'Segundo');
+		color: map-get($map: $palette, $key: 'Tercero');
+		border-radius: 5px;
+		padding: .8rem 1.5rem;
+		border: 1px solid map-get($map: $palette, $key: 'Segundo');
+		cursor: pointer;
+		margin: auto;
+		margin-top: 3rem;
+		margin-bottom: 6rem;
+	}
+.botones1{
+	@include button;
+}
+.botones2{
+	@include button;
+}
+.botones3{
+	@include button;
 }
 .h4{
 	display: flex;
