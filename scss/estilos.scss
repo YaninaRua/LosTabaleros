@@ -1,4 +1,8 @@
 @import "main";
+@import "fuentes";
+@import "extend";
+@import "mixin";
+@import "animacion";
 * {
 	margin:0px;
 	padding:0px;
@@ -13,11 +17,11 @@ body{
 	background-repeat: no-repeat;
 	height: 100vh;
 	font-size: 1.5rem;
-	.fondocontacto{
-		background-image: url(../assets/collage.png);
-		background-size: cover;
-		background-repeat: repeat;
-	}
+}
+.fondocontacto{
+	background-image: url(../assets/collage.png);
+	background-size: cover;
+	background-repeat: repeat;
 }
 .header{
 	color: map-get($map: $palette, $key: 'Tercero');
