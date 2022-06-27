@@ -318,26 +318,25 @@ body {
   padding: auto;
 }
 
-.grupos, .grupo6, .grupo5, .grupo4, .grupo3, .grupo2, .grupo1 {
+.grupos, .grupo6, .grupo6 .grupo1, .grupo5, .grupo5 .grupo1, .grupo4, .grupo4 .grupo1, .grupo3, .grupo3 .grupo1, .grupo2, .grupo2 .grupo1, .grupos .grupo1 {
   justify-content: center;
   align-items: center;
 }
-
-.grupo1 {
+.grupos .contain, .grupo6 .contain, .grupo5 .contain, .grupo4 .contain, .grupo3 .contain, .grupo2 .contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.foto .grupos:hover, .foto .grupo6:hover, .foto .grupo6 .grupo1:hover, .grupo6 .foto .grupo1:hover, .foto .grupo5:hover, .foto .grupo5 .grupo1:hover, .grupo5 .foto .grupo1:hover, .foto .grupo4:hover, .foto .grupo4 .grupo1:hover, .grupo4 .foto .grupo1:hover, .foto .grupo3:hover, .foto .grupo3 .grupo1:hover, .grupo3 .foto .grupo1:hover, .foto .grupo2:hover, .foto .grupo2 .grupo1:hover, .grupo2 .foto .grupo1:hover, .foto .grupos .grupo1:hover, .grupos .foto .grupo1:hover {
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+.grupos .grupo1, .grupo6 .grupo1, .grupo5 .grupo1, .grupo4 .grupo1, .grupo3 .grupo1, .grupo2 .grupo1 {
   display: flex;
   justify-content: space-evenly;
   margin: auto;
   margin-bottom: 24px;
   margin-left: 20px;
   margin-right: 20px;
-}
-.foto .grupo1:hover {
-  transform: scale(1.1);
-  transition: all 250ms;
-}
-.foto .grupo1:hover .contain {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .grupo2 {
@@ -348,14 +347,6 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-.foto .grupo2:hover {
-  transform: scale(1.1);
-  transition: all 250ms;
-}
-.foto .grupo2:hover .contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
 
 .grupo3 {
   display: flex;
@@ -364,14 +355,6 @@ body {
   margin-bottom: 24px;
   margin-left: 20px;
   margin-right: 20px;
-}
-.foto .grupo3:hover {
-  transform: scale(1.1);
-  transition: all 250ms;
-}
-.foto .grupo3:hover .contain {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .grupo4 {
@@ -382,14 +365,6 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-.foto .grupo4:hover {
-  transform: scale(1.1);
-  transition: all 250ms;
-}
-.foto .grupo4:hover .contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
 
 .grupo5 {
   display: flex;
@@ -399,14 +374,6 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-.foto .grupo5:hover {
-  transform: scale(1.1);
-  transition: all 250ms;
-}
-.foto .grupo5:hover .contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
 
 .grupo6 {
   display: flex;
@@ -415,14 +382,6 @@ body {
   margin-bottom: 24px;
   margin-left: 20px;
   margin-right: 20px;
-}
-.foto .grupo6:hover {
-  transform: scale(1.1);
-  transition: all 250ms;
-}
-.foto .grupo6:hover .contain {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .h5 {

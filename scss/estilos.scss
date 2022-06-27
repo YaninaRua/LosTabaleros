@@ -274,6 +274,12 @@ body{
 .grupos{
 	justify-content: center;
 	align-items: center;
+	.contain{
+		object-fit: contain;
+	}
+	.foto &:hover{
+		transform: scale(1.1);
+		transition: all 250ms;
 }
 .grupo1{
 	@extend .grupos;
@@ -283,12 +289,6 @@ body{
 	margin-bottom: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
-	.foto &:hover{
-		transform: scale(1.1);
-		transition: all 250ms;
-		.contain{
-			object-fit: contain;
-		}
 	}
 }
 .grupo2{
@@ -299,14 +299,7 @@ body{
 	margin-bottom: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
-	.foto &:hover{
-		transform: scale(1.1);
-		transition: all 250ms;
-		.contain{
-			object-fit: contain;
-		}
 	}
-}
 .grupo3{
 	@extend .grupos;
 	display: flex;
@@ -315,14 +308,7 @@ body{
 	margin-bottom: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
-	.foto &:hover{
-		transform: scale(1.1);
-		transition: all 250ms;
-		.contain{
-			object-fit: contain;
-		}
 	}
-}
 .grupo4{
 	@extend .grupos;
 	display: flex;
@@ -331,14 +317,7 @@ body{
 	margin-bottom: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
-	.foto &:hover{
-		transform: scale(1.1);
-		transition: all 250ms;
-		.contain{
-			object-fit: contain;
-		}
 	}
-}
 .grupo5{
 	@extend .grupos;
 	display: flex;
@@ -347,14 +326,7 @@ body{
 	margin-bottom: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
-	.foto &:hover{
-		transform: scale(1.1);
-		transition: all 250ms;
-		.contain{
-			object-fit: contain;
-		}
 	}
-}
 .grupo6{
 	@extend .grupos;
 	display: flex;
@@ -363,14 +335,7 @@ body{
 	margin-bottom: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
-	.foto &:hover{
-		transform: scale(1.1);
-		transition: all 250ms;
-		.contain{
-			object-fit: contain;
-		}
 	}
-}
 .h5{
 	display: flex;
 	align-items: center;
