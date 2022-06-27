@@ -116,8 +116,19 @@ body {
 }
 
 .button1 {
-  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f91fb7;
   border: 1px solid #f91fb7;
+  border-radius: 5px;
+  padding: 0.8rem;
+  border: 1px solid #f91fb7;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  font-size: 16px;
 }
 @media all and (max-width: 720px) {
   .button1 {
@@ -163,9 +174,18 @@ body {
 }
 
 .textobio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  flex-direction: inline;
+  font-size: 18px;
   justify-content: left;
   text-align: justify;
   width: 750px;
+  color: #fff;
+  margin: auto;
+  margin-left: 23rem;
 }
 @media all and (max-width: 720px) {
   .textobio {
@@ -544,4 +564,7 @@ body {
     margin: auto;
     width: 200px;
   }
+}
+#footer .modal-title {
+  color: #000;
 }/*# sourceMappingURL=estilos.css.map */

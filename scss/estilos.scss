@@ -105,8 +105,19 @@ body{
 	margin-bottom: 1.5rem;
 }
 .button1{
-	color: map-get($map: $palette, $key: 'Tercero');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: map-get($map: $palette, $key: 'Segundo');
 	border: 1px solid map-get($map: $palette, $key: 'Segundo');
+	border-radius: 5px;
+	padding: 0.8rem;
+	border: 1px solid map-get($map: $palette, $key: 'Segundo');
+	cursor: pointer;
+	margin: auto;
+	margin-top: 1.2rem;
+	margin-bottom: 0.4rem;
+	font-size: 16px;
 	@media all and(max-width: 720px){
 		display: flex;
 		align-items: center;
@@ -147,9 +158,18 @@ body{
 	}
 }
 .textobio{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+	flex-direction: inline;
+	font-size: 18px;
 	justify-content: left;
 	text-align: justify;
     width: 750px;
+	color: map-get($map: $palette, $key: 'Tercero');
+	margin: auto;
+	margin-left: 23rem;
 	@media all and (max-width: 720px){
 		display: flex;
 		align-items: center;
@@ -477,7 +497,7 @@ body{
 		}	
 	}
 	.modal-title{
-		color: map-get($map: $palette, $key: 'cuarto');
+		color: map-get($map: $palette, $key: 'Cuarto');
 	}
 }
 
