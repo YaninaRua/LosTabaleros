@@ -30,25 +30,6 @@ body{
 	justify-content: space-between;
 	align-items:center;
 	padding: 3rem 1.5rem;
-	.container-flex{
-		margin:auto;
-		margin-bottom: 4rem;
-		.logotaba{
-			margin: auto;
-			margin-left: 0px;
-		}
-		li{
-			display: inline-block;
-			list-style-type:none;
-			justify-content: space-evenly;
-			margin: auto;
-			margin-left: 10.5rem;
-		.nav-link{
-				color: map-get($map: $palette, $key: 'Tercero');
-				font-size: 18px;
-			}
-		}
-	}
 	@media all and (max-width:720px){
 		display:flex;
 		list-style-type: none;
@@ -56,6 +37,25 @@ body{
 		flex-direction: row;
 		margin-right: 1rem;
 		position: center;
+	}
+}
+.container-flex{
+	margin:auto;
+	margin-bottom: 4rem;
+	.logotaba{
+		margin: auto;
+		margin-left: 0px;
+	}
+	li{
+		display: inline-block;
+		list-style-type:none;
+		justify-content: space-evenly;
+		margin: auto;
+		margin-left: 10.5rem;
+	.nav-link{
+			color: map-get($map: $palette, $key: 'Tercero');
+			font-size: 18px;
+		}
 	}
 }
 .h1{
