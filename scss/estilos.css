@@ -395,6 +395,8 @@ body {
   width: 600px;
   margin-left: 32rem;
   font-size: 18px;
+  text-align: left;
+  margin: auto;
   color: #fff;
 }
 .contacto .form-control1 {
