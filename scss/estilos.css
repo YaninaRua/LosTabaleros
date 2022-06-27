@@ -26,7 +26,6 @@ body {
 .header {
   color: #fff;
   font-size: 15px;
-  font-weight: 500;
   top: 15px;
   display: flex;
   justify-content: space-between;

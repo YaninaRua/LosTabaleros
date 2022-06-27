@@ -24,7 +24,6 @@ body{
 .header{
 	color: map-get($map: $palette, $key: 'Tercero');
 	font-size: 15px;
-	font-weight: 500;
 	top: 15px;
 	display: flex;
 	justify-content: space-between;
@@ -42,6 +41,7 @@ body{
 		.logotaba{
 			margin: auto;
 			margin-left: 2px;
+
 		}
 		.nav-link{
 				color: map-get($map: $palette, $key: 'Tercero');
