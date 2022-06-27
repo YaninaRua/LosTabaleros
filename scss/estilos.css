@@ -23,31 +23,30 @@ body {
   background-repeat: repeat;
 }
 
-.header {
+.header .container-flex {
   color: #fff;
-  font-size: 15px;
   top: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 6rem 3rem;
+  margin: auto;
+  margin-bottom: 20rem;
 }
-.header li {
+.header .container-flex .logotaba {
+  margin: auto;
+  margin-left: 2px;
+}
+.header .container-flex li {
   display: inline-block;
   list-style-type: none;
   justify-content: space-evenly;
   margin: auto;
   margin-left: 10.5rem;
-}
-.header li .container-flex {
   margin: auto;
-  margin-bottom: 20rem;
+  bottom: 10rem;
 }
-.header li .container-flex .logotaba {
-  margin: auto;
-  margin-left: 2px;
-}
-.header li .container-flex .nav-link {
+.header .container-flex li .nav-link {
   color: #fff;
   font-size: 18px;
 }
