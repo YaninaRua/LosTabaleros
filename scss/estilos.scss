@@ -41,7 +41,6 @@ body{
 			justify-content: space-evenly;
 			margin: auto;
 			margin-left: 10.5rem;
-			margin: auto;
 			bottom: 10rem;
 			.nav-link{
 				color: map-get($map: $palette, $key: 'Tercero');
@@ -250,26 +249,33 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-}
-@mixin button{
 	margin: auto;
-	margin-top: 3rem;
-	margin-bottom: 6rem;
-	border-radius: 5px;
-	padding: 0.2rem 1.5rem;
-	cursor: pointer;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.discos1{
+	@include discos;
+}
+.discos2{
+	@include discos;
+}
+.discos3{
+	@include discos;
 }
 .botones1{
-@include discos;
-@include button;
+ 	@include discos;
 }
 .botones2{
-@include discos;
-@include button;
+	@include discos;
 }
 .botones3{
-@include discos;
-@include button;
+	@include discos;
+}
+.button{
+	background-color: map-get($map: $palette, $key: 'Segundo');
+	color: map-get($map: $palette, $key:'Tercero');
+	border: 1px solid map-get($map: $palette, $key: 'Segundo');
+	border-radius: 5px;
 }
 .h4{
 	display: flex;

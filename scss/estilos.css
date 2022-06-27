@@ -43,7 +43,6 @@ body {
   justify-content: space-evenly;
   margin: auto;
   margin-left: 10.5rem;
-  margin: auto;
   bottom: 10rem;
 }
 .header .container-flex li .nav-link {
@@ -271,16 +270,40 @@ body {
      object-fit: contain;
 }
 
+.discos1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.discos2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.discos3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .botones1 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 6rem;
-  border-radius: 5px;
-  padding: 0.2rem 1.5rem;
-  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .botones2 {
@@ -288,11 +311,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 6rem;
-  border-radius: 5px;
-  padding: 0.2rem 1.5rem;
-  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .botones3 {
@@ -300,11 +320,15 @@ body {
   align-items: center;
   justify-content: space-evenly;
   margin: auto;
-  margin-top: 3rem;
-  margin-bottom: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #f91fb7;
+  color: #fff;
+  border: 1px solid #f91fb7;
   border-radius: 5px;
-  padding: 0.2rem 1.5rem;
-  cursor: pointer;
 }
 
 .h4 {
