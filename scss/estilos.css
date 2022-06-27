@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400;1,600&display=swap");
+@import 'animate.css';
 * {
   margin: 0px;
   padding: 0px;
 }
 
 body {
-  font-family: 'Roboto Mono', monoespacio;
+  font-family: "Roboto Mono", monoespacio;
   margin: 20px;
   text-align: center;
   background-color: #1ff9aa;
@@ -15,7 +17,7 @@ body {
   font-size: 1.5rem;
 }
 
-body .fondocontacto {
+.fondocontacto {
   background-image: url(../assets/collage.png);
   background-size: cover;
   background-repeat: repeat;
@@ -26,71 +28,46 @@ body .fondocontacto {
   font-size: 15px;
   font-weight: 500;
   top: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 3rem 1.5rem;
 }
-
-.header .container-flex {
-  margin: auto;
-  margin-bottom: 4rem;
-}
-
-.header .container-flex .logotaba {
-  margin: auto;
-  margin-left: 0px;
-}
-
-.header .container-flex li {
-  display: inline-block;
-  list-style-type: none;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin: auto;
-  margin-left: 10.5rem;
-}
-
-.header .container-flex li .nav-link {
-  color: #fff;
-  font-size: 18px;
-}
-
 @media all and (max-width: 720px) {
   .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     list-style-type: none;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row;
     margin-right: 1rem;
     position: center;
   }
 }
 
+.container-flex {
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.container-flex .logotaba {
+  margin: auto;
+  margin-left: 0px;
+}
+.container-flex li {
+  display: inline-block;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-left: 10.5rem;
+}
+.container-flex li .nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+
 .h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   text-align: center;
   font-size: 45px;
@@ -102,7 +79,6 @@ body .fondocontacto {
   margin-bottom: 2rem;
   padding: 12px;
 }
-
 @media all and (max-width: 720px) {
   .h1 {
     font-weight: bold;
@@ -119,12 +95,8 @@ body .fondocontacto {
 
 @media all and (max-width: 720px) {
   .banner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     justify-items: center;
     margin: auto;
     margin-bottom: 1rem;
@@ -142,38 +114,14 @@ body .fondocontacto {
 }
 
 .button1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #f91fb7;
   color: #fff;
-  border-radius: 5px;
-  padding: 0.8rem;
   border: 1px solid #f91fb7;
-  cursor: pointer;
-  margin: auto;
-  margin-top: 1.2rem;
-  margin-bottom: 0.4rem;
-  font-size: 16px;
 }
-
 @media all and (max-width: 720px) {
   .button1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     background-color: #f91fb7;
     color: #f91fb7;
     border-radius: 5px;
@@ -188,15 +136,9 @@ body .fondocontacto {
 }
 
 .h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   text-align: center;
   color: #fff;
@@ -209,15 +151,9 @@ body .fondocontacto {
 
 @media all and (max-width: 720px) {
   .contain1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     width: 320px;
     height: 230px;
     margin: auto;
@@ -225,41 +161,16 @@ body .fondocontacto {
 }
 
 .textobio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  justify-content: left;
   text-align: justify;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: inline;
-          flex-direction: inline;
   width: 750px;
-  font-size: 18px;
-  color: #fff;
-  margin: auto;
 }
-
 @media all and (max-width: 720px) {
   .textobio {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: inline;
-            flex-direction: inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: inline;
     width: 320px;
     font-size: 18px;
     color: #fff;
@@ -268,15 +179,9 @@ body .fondocontacto {
 }
 
 .h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   text-align: center;
   color: #fff;
@@ -290,46 +195,86 @@ body .fondocontacto {
 }
 
 .discos {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
-.discos .discos1 .discos2 .discos3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.discos .discos1 {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
   margin: auto;
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 10px;
 }
-
-.discos .discos1 .discos2 .discos3 .contain {
+.discos .discos1 .contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.discos .discos2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.discos .discos2 .contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.discos .discos3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.discos .discos3 .contain {
   -o-object-fit: contain;
      object-fit: contain;
 }
 
-.discos .discos1 .discos2 .discos3 .botones1 .botones2 .botones3 .button {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.botones1 {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #f91fb7;
   color: #fff;
   border-radius: 5px;
-  padding: .8rem 1.5rem;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #f91fb7;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.botones2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f91fb7;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #f91fb7;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.botones3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f91fb7;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
   border: 1px solid #f91fb7;
   cursor: pointer;
   margin: auto;
@@ -338,15 +283,9 @@ body .fondocontacto {
 }
 
 .h4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   text-align: center;
   color: #fff;
@@ -359,50 +298,117 @@ body .fondocontacto {
   padding: auto;
 }
 
-.grupos {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.grupos, .grupo6, .grupo5, .grupo4, .grupo3, .grupo2, .grupo1 {
+  justify-content: center;
+  align-items: center;
 }
 
-.grupos .grupo1 .grupo2 .grupo3 .grupo4 .grupo5 .grupo6 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.grupo1 {
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin: auto;
   margin-bottom: 24px;
   margin-left: 20px;
   margin-right: 20px;
 }
-
-.foto .grupos .grupo1 .grupo2 .grupo3 .grupo4 .grupo5 .grupo6:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all 250ms;
+.foto .grupo1:hover {
+  transform: scale(1.1);
   transition: all 250ms;
 }
+.foto .grupo1:hover .contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 
-.foto .grupos .grupo1 .grupo2 .grupo3 .grupo4 .grupo5 .grupo6:hover .contain {
+.grupo2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.foto .grupo2:hover {
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+.foto .grupo2:hover .contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.grupo3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.foto .grupo3:hover {
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+.foto .grupo3:hover .contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.grupo4 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.foto .grupo4:hover {
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+.foto .grupo4:hover .contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.grupo5 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.foto .grupo5:hover {
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+.foto .grupo5:hover .contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.grupo6 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.foto .grupo6:hover {
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+.foto .grupo6:hover .contain {
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 .h5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   text-align: center;
   color: #fff;
@@ -416,12 +422,9 @@ body .fondocontacto {
 
 .contacto {
   width: 600px;
-  text-align: left;
-  margin: auto;
   margin-left: 32rem;
   font-size: 18px;
 }
-
 .contacto .formcontrol1 {
   text-align: left;
   margin: auto;
@@ -432,24 +435,15 @@ body .fondocontacto {
   height: 300px;
   width: 500px;
 }
-
 @media all and (max-width: 720px) {
   .contacto .formcontrol1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    font-size: 16px;
+    align-items: center;
+    justify-content: center;
     height: 200px;
     width: 170px;
   }
 }
-
 @media all and (max-width: 720px) {
   .contacto {
     width: 170px;
@@ -464,19 +458,14 @@ body .fondocontacto {
 }
 
 .button3 {
-  background-color: #f91fb7;
   color: #fff;
   border-radius: 5px;
   padding: 0.8rem;
-  border: 1px solid #f91fb7;
-  cursor: pointer;
-  margin: auto;
   margin-top: 0.8rem;
   margin-bottom: 3rem;
   margin-right: 26rem;
   font-size: 16px;
 }
-
 @media all and (max-width: 720px) {
   .button3 {
     background-color: #f91fb7;
@@ -490,132 +479,67 @@ body .fondocontacto {
 }
 
 .mx-auto1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
   margin-left: 9rem;
-  width: 200px;
 }
-
 @media all and (max-width: 720px) {
   .mx-auto1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     width: 200px;
   }
 }
 
-div {
-  color: #f91fb7;
-}
-
-div #footer {
+#footer {
   color: #fff;
   font-size: 25px;
-  margin: auto;
 }
-
-div #footer .redes {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+#footer .redes {
+  justify-content: space-between;
 }
-
-div #footer .redes .redes_sociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#footer .redes .redes_sociales {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   list-style-type: none;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
-
-div #footer .redes .redes_sociales a {
+#footer .redes .redes_sociales a {
   text-decoration: none;
 }
-
-div #footer .redes .redes_sociales i {
+#footer .redes .redes_sociales i {
   font-size: 3rem;
 }
-
-div #footer .redes .redes_sociales1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#footer .redes .redes_sociales1 {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   list-style-type: none;
   margin: auto;
   margin-left: 8rem;
 }
-
 @media all and (max-width: 720px) {
-  div #footer .redes .redes_sociales1 {
+  #footer .redes .redes_sociales1 {
     list-style-type: none;
     margin: auto;
     margin-top: 3 rem;
   }
 }
-
-div #footer .redes .redes_sociales1 a {
+#footer .redes .redes_sociales1 a {
   text-decoration: none;
 }
-
-div #footer .redes .redes_sociales1 i {
+#footer .redes .redes_sociales1 i {
   font-size: 3rem;
 }
-
-div #footer .mx-auto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 @media all and (max-width: 720px) {
-  div #footer .mx-auto {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  #footer .mx-auto {
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     width: 200px;
   }
-}
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
