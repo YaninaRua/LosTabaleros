@@ -233,27 +233,32 @@ body{
 		}
 	}
 }
-@mixin button{
+@mixin discos{
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	background-color: map-get($map: $palette, $key: 'Segundo');
-	color: map-get($map: $palette, $key: 'Tercero');
-	border-radius: 5px;
-	padding: .8rem 1.5rem;
-	border: 1px solid map-get($map: $palette, $key: 'Segundo');
-	cursor: pointer;
+	justify-content: space-evenly;
+}
+@mixin button{
 	margin: auto;
 	margin-top: 3rem;
 	margin-bottom: 6rem;
+	background-color: map-get($map: $palette, $key: 'Segundo');
+	color: map-get($map: $palette, $key: 'Segundo');
+	border-radius: 5px;
+	padding: 0.2rem 1.5rem;
+	border: 1px solid map-get($map: $palette, $key: 'Segundo');
+	cursor: pointer;
 }
 .botones1{
+@include discos;
 @include button;
 }
 .botones2{
+@include discos;
 @include button;
 }
 .botones3{
+@include discos;
 @include button;
 }
 .h4{
