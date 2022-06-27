@@ -433,7 +433,7 @@ body{
 	}
 }
 div{
-	color: map-get($map: $palette, $key: 'Segundo');
+	color: map-get($map: $palette, $key: 'Tercero');
 	#footer{
 		color: map-get($map: $palette, $key: 'Tercero');
 		font-size: 25px;
