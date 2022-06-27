@@ -29,21 +29,20 @@ body{
 	justify-content: space-between;
 	align-items:center;
 	padding: 6rem 3rem;
-	li{
-		display: inline-block;
-		list-style-type:none;
-		justify-content: space-evenly;
-		margin: auto;
-		margin-left: 10.5rem;
 	.container-flex{
 		margin:auto;
 		margin-bottom: 20rem;
 		.logotaba{
 			margin: auto;
 			margin-left: 2px;
-
 		}
-		.nav-link{
+		li{
+			display: inline-block;
+			list-style-type:none;
+			justify-content: space-evenly;
+			margin: auto;
+			margin-left: 10.5rem;
+			.nav-link{
 				color: map-get($map: $palette, $key: 'Tercero');
 				font-size: 18px;
 			}
