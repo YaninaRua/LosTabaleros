@@ -277,9 +277,12 @@ body{
 	.contain{
 		object-fit: contain;
 	}
-	.foto &:hover{
+	.foto{
+		&:hover{
 		transform: scale(1.1);
 		transition: all 250ms;
+	}
+	}
 }
 .grupo1{
 	@extend .grupos;
@@ -290,7 +293,6 @@ body{
 	margin-left: 20px;
 	margin-right: 20px;
 	}
-}
 .grupo2{
 	@extend .grupos;
 	display: flex;
