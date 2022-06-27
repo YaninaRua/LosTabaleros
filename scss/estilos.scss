@@ -403,60 +403,59 @@ body{
 		width: 200px;
 	}
 }
-div{
-	#footer{
-		color: map-get($map: $palette, $key: 'Tercero');
-		font-size: 25px;
-		.redes{
-			justify-content: space-between;
-			.redes_sociales{
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				list-style-type: none;
-				margin: auto;
-				margin-top: 3rem;
-				margin-bottom: 1rem;
-				a{
-					text-decoration: none;
-				}
-				i{
-					font-size: 3rem;
-				}
+#footer{
+	color: map-get($map: $palette, $key: 'Tercero');
+	font-size: 25px;
+	.redes{
+		justify-content: space-between;
+		.redes_sociales{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			list-style-type: none;
+			margin: auto;
+			margin-top: 3rem;
+			margin-bottom: 1rem;
+			a{
+				text-decoration: none;
 			}
-			.redes_sociales1{
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				list-style-type: none;
-				margin: auto;
-				margin-left: 8rem;
-				@media all and (max-width: 720px){
-					list-style-type: none;
-					margin: auto;
-					margin-top: 3 rem;
-				}
-				a{
-					text-decoration: none;
-				}
-				i{
-					font-size: 3rem;
-				}
+			i{
+				font-size: 3rem;
 			}
 		}
-		.mx-auto{
+		.redes_sociales1{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			list-style-type: none;
+			margin: auto;
+			margin-left: 8rem;
 			@media all and (max-width: 720px){
-				display: flex;
-				align-items: center;
-				justify-content: center;
+				list-style-type: none;
 				margin: auto;
-				width:  200px;
-			}	
-		}
-		.modal-title{
-			color: map-get($map: $palette, $key: 'cuarto');
+				margin-top: 3 rem;
+			}
+			a{
+				text-decoration: none;
+			}
+			i{
+				font-size: 3rem;
+			}
 		}
 	}
+	.mx-auto{
+		@media all and (max-width: 720px){
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: auto;
+			width:  200px;
+		}	
+	}
+	.modal-title{
+		color: map-get($map: $palette, $key: 'cuarto');
+	}
 }
+
 
 
