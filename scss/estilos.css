@@ -119,11 +119,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #f91fb7;
+  background-color: #f91fb7;
+  color: #fff;
   border: 1px solid #f91fb7;
   border-radius: 5px;
   padding: 0.8rem;
-  border: 1px solid #f91fb7;
   cursor: pointer;
   margin: auto;
   margin-top: 1.2rem;
@@ -428,13 +428,15 @@ body {
 }
 
 .button3 {
-  color: #fff;
   border-radius: 5px;
   padding: 0.8rem;
   margin-top: 0.8rem;
   margin-bottom: 3rem;
   margin-right: 26rem;
   font-size: 16px;
+  background-color: #f91fb7;
+  color: #fff;
+  border: 1px solid #f91fb7;
 }
 @media all and (max-width: 720px) {
   .button3 {
