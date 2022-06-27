@@ -358,7 +358,8 @@ body{
 	width: 600px;
 	margin-left: 32rem;
 	font-size: 18px;
-	.formcontrol1{
+	color: map-get($map: $palette, $key: 'Tercero');
+	.form-control1{
 		text-align: left;
 		margin: auto;
 		margin-top: 0.2rem;
