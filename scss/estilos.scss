@@ -146,15 +146,9 @@ body{
 	}
 }
 .textobio{
-	display: flex;
-	align-items: center;
 	justify-content: left;
 	text-align: justify;
-	flex-direction: inline;
     width: 750px;
-	font-size: 18px;
-	color: map-get($map: $palette, $key: 'Tercero');
-	margin: auto;
 	@media all and (max-width: 720px){
 		display: flex;
 		align-items: center;
@@ -351,8 +345,6 @@ body{
 }
 .contacto{
 	width: 600px;
-	text-align: left;
-	margin: auto;
 	margin-left: 32rem;
 	font-size: 18px;
 	.formcontrol1{
@@ -368,7 +360,6 @@ body{
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			font-size: 16px;
 			height: 200px;
 			width: 170px;
 		}
@@ -385,13 +376,9 @@ body{
 	}
 }
 .button3{
-	background-color: map-get($map: $palette, $key: 'Segundo');
 	color: map-get($map: $palette, $key: 'Tercero');
 	border-radius: 5px;
 	padding: 0.8rem;
-	border: 1px solid map-get($map: $palette, $key: 'Segundo');
-	cursor: pointer;
-	margin: auto;
 	margin-top: 0.8rem;
 	margin-bottom: 3rem;
 	margin-right: 26rem;
@@ -407,12 +394,7 @@ body{
     }
 }
 .mx-auto1{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
 	margin-left: 9rem;
-	width: 200px;
 	@media all and (max-width: 720px){
 		display: flex;
 		align-items: center;
@@ -422,11 +404,9 @@ body{
 	}
 }
 div{
-	color: map-get($map: $palette, $key: 'Tercero');
 	#footer{
 		color: map-get($map: $palette, $key: 'Tercero');
 		font-size: 25px;
-		margin:auto;
 		.redes{
 			justify-content: space-between;
 			.redes_sociales{
@@ -465,9 +445,6 @@ div{
 			}
 		}
 		.mx-auto{
-			display: flex;
-			align-items: center;
-			justify-content: center;
 			@media all and (max-width: 720px){
 				display: flex;
 				align-items: center;
