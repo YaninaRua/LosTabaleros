@@ -474,7 +474,7 @@ body {
   padding: 0.8rem;
   margin-top: 0.8rem;
   margin-bottom: 3rem;
-  margin-right: 26rem;
+  margin-right: 31rem;
   font-size: 16px;
   background-color: #f91fb7;
   color: #fff;
@@ -488,7 +488,7 @@ body {
     cursor: pointer;
     width: 0px;
     margin: auto;
-    margin-right: 12rem;
+    margin-right: 10rem;
   }
 }
 

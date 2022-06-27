@@ -413,7 +413,7 @@ body{
 	padding: 0.8rem;
 	margin-top: 0.8rem;
 	margin-bottom: 3rem;
-	margin-right: 26rem;
+	margin-right: 31rem;
 	font-size: 16px;
 	background-color: map-get($map: $palette, $key: 'Segundo');
 	color: map-get($map: $palette, $key:'Tercero');
@@ -425,7 +425,7 @@ body{
 		cursor: pointer;
 		width: 0px;
 		margin: auto;
-		margin-right: 12rem;
+		margin-right: 10rem;
     }
 }
 .mx-auto1{
