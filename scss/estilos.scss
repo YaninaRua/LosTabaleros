@@ -104,19 +104,8 @@ body{
 	margin-bottom: 1.5rem;
 }
 .button1{
-	display:flex;
-	align-items: center;
-	justify-content: center;
-	background-color: map-get($map: $palette, $key: 'Segundo');
 	color: map-get($map: $palette, $key: 'Tercero');
-	border-radius: 5px;
-	padding: 0.8rem;
 	border: 1px solid map-get($map: $palette, $key: 'Segundo');
-	cursor: pointer;
-	margin:auto;
-	margin-top: 1.2rem;
-	margin-bottom: 0.4rem;
-	font-size: 16px;
 	@media all and(max-width: 720px){
 		display: flex;
 		align-items: center;
