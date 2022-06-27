@@ -122,7 +122,6 @@ body{
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: map-get($map: $palette, $key: 'Segundo');
 		color: map-get($map: $palette, $key: 'Segundo');
 		border-radius: 5px;
 		padding: 0.8rem;
